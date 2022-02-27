@@ -1,0 +1,42 @@
+.SelectPortPopUpContainer {
+  position: absolute;
+  height: 70vh;
+  width: 70vw;
+  border: 6px solid #1866bf;
+  top: 50%;
+  border-radius: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  z-index: 9999;
+}
+
+.SelectPortpopUpCloseIcon {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  top: -8%;
+  right: -3%;
+}
+
+.SelectPortpopUpbtnYes {
+  position: absolute;
+  height: 10%;
+  width: 15%;
+  background-color: #311b92;
+  border-radius: 50px;
+  right: 5%;
+  bottom: 8%;
+  border: 2px solid #000;
+}
+
+.SelectPortpopUpMenuStyle {
+  color: red;
+}
+
+@media (max-width: 850px) and (min-width: 600px) {
+  .SelectPortpopUpCloseIcon {
+    top: -8%;
+    right: -6%;
+  }
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group_3263" data-name="Group 3263" transform="translate(-557 -204)">
+    <g id="radio_button_" data-name="radio button&apos;" transform="translate(557 204)" fill="#171d1a" stroke="#171d1a" stroke-width="0.75">
+      <circle cx="10" cy="10" r="10" stroke="none"/>
+      <circle cx="10" cy="10" r="9.625" fill="none"/>
+    </g>
+    <text id="C" transform="translate(563 218)" fill="#fcfcfc" stroke="#fcfcfc" stroke-width="0.5" font-size="12" font-family="Halcyon-Medium, Halcyon" font-weight="500"><tspan x="0" y="0">C</tspan></text>
+  </g>
+</svg>

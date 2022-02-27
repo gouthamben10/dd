@@ -1,0 +1,45 @@
+
+.outertabDiv-output{
+    position: relative;
+    color: #000;
+    height: 550px;
+    width: 900px;
+    top: 42.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 100%;
+    background-position: -24px -30px;
+    background-size: 950px 590px;
+    background-repeat: no-repeat;
+    background-image: url('../../../../../../Assets/img/propertypanel@2x.png');
+  }
+  
+  .outertabDiv-output .slider-section {
+    height: 100%;
+    width: 110%;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 100%;
+    height: 450px;
+    position: relative;
+    left: 20%;
+    top: 8%;
+    grid-template-rows: repeat(4, 25%);
+    overflow-y: scroll;
+    overflow-x: hidden;
+   
+  }
+
+  
+.waitPropertyTxt {
+    position: relative;
+    top: 5px;
+    left: -18px;
+}
+
+.hardwareText{
+  position: relative;
+  left: 15px;
+}

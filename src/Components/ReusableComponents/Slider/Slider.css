@@ -1,0 +1,163 @@
+.SliderRangeContainer {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 10% 90%;
+  /* grid-template-columns: 20% 80%; */
+  /* column-gap: 3%; */
+  grid-template-rows: 100%;
+  /* border: 1px solid red; */
+}
+
+.SliderRangeMain {
+  width: 85%;
+  position: relative;
+  height: 15px;
+  /* background-color: aqua; */
+  margin-left: 6%;
+  margin-top: 7%;
+
+  /* box-sizing: border-box; */
+}
+
+#sliderRange {
+  -webkit-appearance: none;
+  width: 90%;
+  border-radius: 10px;
+  /* border: 1px solid orange; */
+  height: 9.5px;
+  outline: none;
+}
+
+#sliderRange::-webkit-slider-thumb {
+  -webkit-appearance: none;
+
+  position: relative;
+  width: 36px;
+  height: 57px;
+  cursor: pointer;
+  z-index: 3;
+  /* border: 1px solid red; */
+  background-image: url("../../../Assets/slider button.svg");
+  background-repeat: no-repeat;
+  background-size: 3vw 100%;
+  margin-top: 0%;
+  line-height: 1.7;
+  /* border-radius: 100%; */
+  border-radius: 50%;
+
+  background-position-x: -5.5px;
+  background-position-y: 7px;
+  margin-left: 0.3px;
+}
+
+#selectorContainer {
+  height: 40px;
+  width: 50px;
+  position: absolute;
+  top: -50%;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-left: -0%;
+  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.selectorButtonImg {
+  height: 48px;
+  width: 48px;
+  /* background-color: black; */
+  position: relative;
+  background-position-x: -8px;
+
+  background-position-y: 2px;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+  #sliderRange::-webkit-slider-thumb {
+    width: 43px;
+    height: 55px;
+    background-size: 55px 95%;
+  }
+}
+@media screen and (max-width: 1025px) and (min-width: 769px) {
+  #sliderRange::-webkit-slider-thumb {
+    width: 36px;
+    height: 47px;
+    /* border: 1px solid red; */
+    background-size: 47px 95%;
+  }
+  #sliderRange {
+    /* -webkit-appearance: none; */
+    /* width: 100%; */
+    /* border-radius: 10px; */
+    /* border: 1px solid orange; */
+    height: 7px;
+    /* outline: none; */
+  }
+}
+@media screen and (max-width: 1399px) and (min-width: 1026px) {
+  #sliderRange::-webkit-slider-thumb {
+    width: 36px;
+    height: 47px;
+    /* border: 1px solid red; */
+    background-size: 47px 95%;
+  }
+  #sliderRange {
+    /* -webkit-appearance: none; */
+    /* width: 100%; */
+    /* border-radius: 10px; */
+    /* border: 1px solid orange; */
+    height: 7px;
+    /* outline: none; */
+  }
+}
+@media screen and (max-width: 768px) {
+  #sliderRange::-webkit-slider-thumb {
+    width: 28px;
+    height: 40px;
+
+    /* border: 1px solid red; */
+    background-size: 39px 90%;
+  }
+  #sliderRange {
+    /* -webkit-appearance: none; */
+    /* width: 100%; */
+    /* border-radius: 10px; */
+    /* border: 1px solid orange; */
+    height: 5px;
+    /* outline: none; */
+  }
+}
+@media screen and (max-width: 2150px) and (min-width: 1600px) {
+  #sliderRange::-webkit-slider-thumb {
+    width: 43px;
+    height: 55px;
+    /* border: 1px solid red; */
+    background-size: 55px 95%;
+  }
+}
+/* @media screen and (max-width: 1024px) and (min-width: 540px) {
+  #sliderRange::-webkit-slider-thumb {
+    width: 40px;
+    height: 55px;
+    border: 1px solid red;
+    background-size: 55px 95%;
+
+    background-position-x: -9.5px;
+    background-position-y: 7px;
+  }
+}
+
+@media screen and (min-width: 1135px) {
+  #sliderRange::-webkit-slider-thumb {
+    width: 40px;
+    height: 55px;
+    border: 1px solid red;
+    background-size: 55px 95%;
+
+    background-position-x: -9.5px;
+    background-position-y: 7px;
+  }
+} */

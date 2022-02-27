@@ -1,0 +1,381 @@
+body {
+  background-color: #fafafa;
+}
+.Speech-Main {
+  height: 100vh;
+  width: 100vw;
+
+  display: grid;
+  /* border: 1px solid red; */
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 80% 10%;
+}
+.Speech_Header {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  /* border: 1px solid red; */
+  grid-template-columns: 7% 13% 65% 5% 4% 6%;
+  grid-template-rows: 100%;
+}
+.Back_BTNN {
+  height: auto;
+  width: 4%;
+  position: absolute;
+  top: 4%;
+  left: 2%;
+  cursor: pointer;
+}
+.Play_Speech {
+  height: auto;
+  width: 4%;
+  font-size: 25px;
+  font-family: "Halcyon_SemiBold" !important;
+  position: absolute;
+  top: 5.5%;
+  left: 7%;
+}
+.Lang_Bar {
+  height: 100%;
+  width: 16%;
+  right: 0;
+  display: grid;
+  grid-template-rows: 90% 10%;
+  grid-template-columns: 100%;
+  position: absolute;
+  /* z-index: -1; */
+}
+.Lang_Div {
+  height: 20%;
+  width: 61%;
+  display: grid;
+  position: absolute;
+  top: 15%;
+  left: 17%;
+  /* position: relative; */
+  /* grid-template-rows: repeat(3, 33%); */
+  grid-template-rows: 32% 2% 32% 2% 32%;
+  grid-template-columns: 100%;
+}
+
+.Language_Bar {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+.English_Lang {
+  height: 10%;
+  width: 10%;
+  font-size: 16px;
+  /* border-bottom: 3px solid #707070; */
+  font-family: "Halcyon_Regular" !important;
+  position: absolute;
+  top: 11%;
+}
+.Hindi_Lang {
+  height: 10%;
+  width: 10%;
+  font-size: 16px;
+  top: 45%;
+  font-family: "Halcyon_Regular" !important;
+  position: absolute;
+}
+.LanguageIA_Btn {
+  height: auto;
+  width: 4%;
+  cursor: pointer;
+  position: absolute;
+  top: 4%;
+  right: 10%;
+  z-index: 1;
+}
+.Help_btn {
+  height: auto;
+  width: 4%;
+  position: absolute;
+  top: 4%;
+  right: 6%;
+  z-index: 1;
+}
+.Bluetooth_Btn {
+  height: auto;
+  width: 6%;
+  position: absolute;
+  top: 4%;
+  right: 0.1%;
+}
+.mole {
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  position: absolute;
+}
+.Spch_Slider {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0%;
+  z-index: 100000;
+  background: #fff;
+}
+.ros {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  height: 10%;
+  width: 5%;
+  z-index: 100000;
+}
+.Ace_Speech {
+  height: 50%;
+  width: 50%;
+  display: grid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: 100%;
+  transform: translate(-50%, -50%);
+}
+.Ace_img {
+  height: auto;
+  width: 50%;
+  margin-top: 17%;
+}
+.Mic_img {
+  height: auto;
+  width: 48%;
+  cursor: pointer;
+  margin-top: 26%;
+  margin-left: 53%;
+}
+
+.Speech_Instruc {
+  height: auto;
+  width: 33%;
+  font-size: 18px;
+  font-family: "Halcyon_Medium" !important;
+  color: #707070;
+  position: absolute;
+  bottom: 6%;
+  left: 34%;
+}
+.Speech_Instruct {
+  height: auto;
+  width: 33%;
+  font-size: 19px;
+  font-family: "Halcyon_Medium" !important;
+  color: #707070;
+  /* margin-top: 5%; */
+  /* margin-left: 30%; */
+  position: absolute;
+  bottom: 6%;
+  left: 44%;
+}
+.Sound_Wave {
+  min-width: 80%;
+  min-height: 50%;
+  position: fixed;
+  z-index: -3;
+  top: -31%;
+  left: 29.5%;
+}
+
+@media screen and (max-width: 1445px) and (min-width: 1025px) {
+  .LanguageIA_Btn {
+    width: 4%;
+  }
+  .Sound_Wave {
+    width: 45%;
+    /* background-color: #fcfcfc; */
+    /* position: absolute; */
+    /* z-index: -1; */
+    top: -22.5%;
+    /* left: 48%; */
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .Back_BTNN {
+    /* height: auto; */
+    width: 5%;
+    /* position: absolute; */
+    top: 4%;
+    /* left: 3%; */
+  }
+  .Play_Speech {
+    /* height: auto; */
+    /* width: 4%; */
+    font-size: 23px;
+    /* font-family: "Halcyon_SemiBold"; */
+    /* position: absolute; */
+    /* top: 5.5%; */
+    left: 8%;
+  }
+  .LanguageIA_Btn {
+    /* height: auto; */
+    width: 5%;
+    /* position: absolute; */
+    /* top: 4%; */
+    right: 11%;
+  }
+  .Lang_Bar {
+    /* height: 100%; */
+    width: 17%;
+    /* right: 0; */
+    /* display: grid; */
+    /* grid-template-rows: 90% 10%; */
+    /* grid-template-columns: 100%; */
+    /* position: absolute; */
+    /* z-index: -1; */
+  }
+  .Help_btn {
+    /* height: auto; */
+    width: 5%;
+    /* position: absolute; */
+    top: 4%;
+    right: 6.7%;
+  }
+  .Bluetooth_Btn {
+    /* height: auto; */
+    width: 7.3%;
+    /* position: absolute; */
+    /* top: 4%; */
+    /* right: 0.1%; */
+  }
+  .Ace_img {
+    /* height: auto; */
+    width: 73%;
+    margin-top: 25%;
+  }
+  .Mic_img {
+    /* height: auto; */
+    width: 60%;
+    margin-top: 30%;
+    /* margin-left: 53%; */
+  }
+  .Mic_imgIA {
+    /* height: auto; */
+    /* width: 63%; */
+    margin-top: 28%;
+    /* margin-left: 54.5%; */
+  }
+  .Speech_Instruc {
+    /* height: auto; */
+    width: 41%;
+    font-size: 16px;
+    /* font-family: "Halcyon_Medium"; */
+    /* color: #707070; */
+    /* margin-top: 5%; */
+    /* margin-left: 30%; */
+    /* position: absolute; */
+    /* bottom: 2%; */
+    left: 31%;
+  }
+  .Speech_Instruct {
+    /* height: auto; */
+    /* width: 33%; */
+    font-size: 16px;
+    /* font-family: "Halcyon_Medium"; */
+    /* color: #707070; */
+    /* margin-top: 5%; */
+    /* margin-left: 30%; */
+    /* position: absolute; */
+    /* bottom: 6%; */
+    left: 47%;
+  }
+
+  .Sound_Wave {
+    /* height: auto; */
+    /* width: 45%; */
+    /* background-color: #fcfcfc; */
+    /* position: absolute; */
+    /* z-index: -1; */
+    top: -24.5%;
+    left: 24%;
+  }
+  .English_Lang {
+    /* height: 10%; */
+    /* width: 10%; */
+    font-size: 15px;
+    /* border-bottom: 3px solid #707070; */
+    /* font-family: "Halcyon_Regular"; */
+    /* position: absolute; */
+    /* top: 11%; */
+  }
+  .Hindi_Lang {
+    /* height: 10%; */
+    /* width: 10%; */
+    font-size: 15px;
+    /* top: 45%; */
+    /* text-align: unset; */
+    /* margin-top: 6%; */
+    /* font-family: "Halcyon_Regular"; */
+    /* position: absolute; */
+  }
+}
+
+@media (max-width: 768px) {
+  .Back_BTNN {
+    /* height: auto; */
+    width: 6%;
+    left: 2%;
+  }
+  .Play_Speech {
+    font-size: 21px;
+    top: 5%;
+    left: 8.5%;
+  }
+  .LanguageIA_Btn {
+    width: 6%;
+    right: 14%;
+  }
+  .English_Lang {
+    font-size: 14px;
+  }
+  .Hindi_Lang {
+    font-size: 14px;
+    top: 46%;
+  }
+  .Help_btn {
+    width: 6%;
+    right: 8.5%;
+  }
+  .Bluetooth_Btn {
+    width: 9%;
+  }
+  .Ace_img {
+    width: 76%;
+    margin-top: 47%;
+  }
+  .Mic_img {
+    width: 65%;
+    margin-top: 52%;
+  }
+  .Mic_imgIA {
+    width: 76%;
+    margin-top: 48%;
+  }
+  .Speech_Instruc {
+    width: 48%;
+    font-size: 14px;
+    left: 25%;
+  }
+  .Speech_Instruct {
+    font-size: 14px;
+    left: 46%;
+  }
+
+  .Sound_Wave {
+    top: -23.3%;
+    left: 5%;
+  }
+  .Lang_Bar {
+    width: 21%;
+  }
+  .Ace_Speech {
+    left: 46%;
+  }
+}

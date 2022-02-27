@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="14" viewBox="0 0 16 14">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.068" y1="0.261" x2="0.939" y2="0.883" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e6e6e6"/>
+      <stop offset="1" stop-color="#717171"/>
+    </linearGradient>
+  </defs>
+  <g id="eye_-_active" data-name="eye - active" opacity="0">
+    <rect id="eye_-_active-2" data-name="eye - active" width="16" height="14" rx="4" opacity="0.9" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

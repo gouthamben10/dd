@@ -1,0 +1,53 @@
+.container {
+  position: relative;
+  top: 8%;
+  left: 8%;
+  /* border: 3px solid black; */
+  height: 80%;
+  width: 80%;
+  z-index: 2;
+}
+
+.Startaction-img {
+  position: absolute;
+  top: 0%;
+  height: 50px;
+  width: 100%;
+  cursor: pointer;
+  /* background-color: red; */
+}
+
+.Ifaction-img {
+  position: absolute;
+  top: 18%;
+  height: 50px;
+  width: 100%;
+}
+
+.Waitaction-img {
+  position: absolute;
+  top: 36%;
+  height: 50px;
+  width: 100%;
+}
+
+.Loopaction-img {
+  position: absolute;
+  top: 54%;
+  height: 50px;
+  width: 100%;
+}
+
+.Outputaction-img {
+  position: absolute;
+  top: 72%;
+  height: 50px;
+  width: 100%;
+}
+
+.End-Repeataction-img {
+  position: absolute;
+  top: 90%;
+  height: 50px;
+  width: 100%;
+}

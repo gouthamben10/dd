@@ -1,0 +1,184 @@
+.user-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.assmeblySidebar {
+  height: 260px;
+  overflow: hidden auto;
+  background-color: rgb(53, 53, 53);
+  border: 2px solid rgb(64, 61, 61);
+  overflow-wrap: break-word;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 3%;
+}
+#assemblyConnections {
+}
+.pure-u-1-5 {
+  width: 20%;
+  /* border: 3px solid blue; */
+}
+
+.pure-u-4-5 {
+  width: 80%;
+}
+button {
+  outline: "none";
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+} */
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e6e6e6;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #e6e6e6;
+}
+
+/* .FourInOneSensor-container {
+  position: absolute;
+  height: 150px;
+  width: 300px;
+  z-index: 2000000;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 100%;
+}
+
+.FourInOneSensor-container .propertyPanel-Details {
+  height: 100%;
+  width: 100%;
+}
+
+.FourInOneSensor-container .propertyPanel-closeBtn {
+  height: 100%;
+  width: 100%;
+  justify-items: center;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.propertyPanel {
+  z-index: 999999;
+}
+
+.propertyPanel .propertyPanel-Details-colorSensor {
+  position: absolute;
+  top: 50%;
+  right: 7%;
+  transform: translateY(-50%);
+  height: 100px;
+  width: 160px;
+  border-radius: 36px;
+  background: #f4f4f4;
+  z-index: 999999;
+}
+
+.propertyPanel-Details-colorSensor .colorSensor-container {
+  height: 70px;
+  width: 82%;
+  /* background: red; */
+  margin-top: 10.5%;
+  margin-left: 7.5%;
+  position: relative;
+  display: grid;
+  grid-template-columns: 40% 50%;
+  grid-template-rows: 100%;
+  grid-gap: 5%;
+}
+
+.propertyPanel .propertyPanel-Details {
+  position: absolute;
+  top: 50%;
+  right: 7%;
+  transform: translateY(-50%);
+  height: 100px;
+  width: 65px;
+  border-radius: 46px;
+  background: #f4f4f4;
+}
+
+.propertyPanel-Details .Item {
+  height: 70%;
+  width: 70%;
+  margin-top: 25%;
+  margin-left: 15%;
+}
+.Item p {
+  font-size: 12px;
+  color: #707070;
+  margin: 0;
+  text-align: center;
+}
+.iconBtnSize1 {
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  position: fixed;
+  top: 50%;
+  right: 0.35%;
+  transform: translateY(-50%);
+  z-index: 1000000000;
+}
+
+.propertyPanel-Details-colorSensor .colorSensor-container div:nth-child(1) {
+  /* background: yellow; */
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.propertyPanel-Details-colorSensor .colorSensor-container div:nth-child(2) {
+  background: #fff;
+  border-radius: 5px;
+}
+
+.colorSensor-container div:nth-child(2) p {
+  font-size: 12px;
+  width: 100%;
+  margin: 0%;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.AssemblycheckBoxContainer {
+  z-index: 9999;
+  position: absolute;
+  height: 25%;
+  width: 15%;
+  /* border: 1px solid red; */
+  top: 15%;
+  right: 0%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.AssemblycheckBoxLable {
+}
+
+.AssemblycheckBox {
+  position: relative;
+  height: 25px;
+  width: 25px;
+  top: 15%;
+}

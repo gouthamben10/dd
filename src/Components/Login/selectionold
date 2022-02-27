@@ -1,0 +1,48 @@
+import React, { Component } from 'react';
+import './login.css'
+import { Link } from 'react-router-dom'
+import { connect } from 'react-redux'
+
+
+class Selection extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {}
+    }
+
+    learn = () => {
+        console.log("this.props.history====>", this)
+
+        this.props.history.push("/Learn")
+
+
+    }
+    render() {
+        return (
+            <div className="Selection">
+                <div className="selectTitle">Bibox Tern
+          <Link to="/deviceSelection"><span className="selectIcon"><img src="images/login/login_button_back@2x.png"></img></span></Link>  </div>
+
+                <div className="selectionMainDiv">
+
+                    <div className="selectionDiv" onClick={this.play}> <div className="selectHeading"><p >Play</p></div> <img src="images/login/button_play@2x.png"></img><p className="selectDesc">Description about the mode</p></div>
+                    <div className="selectionDiv" onClick={this.learn}><div className="selectHeading"><p >Learn</p></div> <img src="images/login/button_learn@2x.png"></img><p className="selectDesc">Description about the mode</p></div>
+                    <div className="selectionDiv" onClick={this.play}> <div className="selectHeading"><p >Program</p></div> <img src="images/login/button_program@2x.png"></img><p className="selectDesc">Description about the mode</p></div>
+                    <div className="selectionDiv" onClick={this.play}> <div className="selectHeadingCon"><p >Construct</p></div> <img src="images/login/button-construct@2x.png"></img><p className="selectDescCon">Description about the mode</p></div>
+
+                </div>
+            </div>
+        )
+    }
+}
+
+const mapStateToProps = state => {
+    return state;
+}
+
+
+
+Selection = connect(mapStateToProps, null)(Selection)
+export default Selection
+
+// export default Selection

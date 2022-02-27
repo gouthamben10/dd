@@ -1,0 +1,79 @@
+.GridImg {
+  position: "relactive";
+  background-color: "yellow";
+}
+.subItem1 {
+  position: absolute;
+  top: 0%;
+  background-color: royalblue;
+  width: 100%;
+}
+
+.inputOutputPopupContainer {
+  position: fixed;
+  top: 0;
+  height: 100.2vh;
+  width: 100vw;
+  background-color: #a7acaf;
+  opacity: 0.3;
+}
+
+.inputOutputPopupMain {
+  position: absolute;
+  height: 30vh;
+  width: 25vw;
+  border: 3px solid #311b92;
+  top: 50%;
+  border-radius: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+}
+
+.inputOutputPopupCloseIcon {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  top: -19%;
+  right: -10%;
+  cursor: pointer;
+}
+
+.inputOutputPopupTExt {
+  color: orange;
+  font-size: 1.7vw;
+  text-align: center;
+  margin-top: 7%;
+}
+.inputOutputPopupbtn {
+  margin-top: 8%;
+  height: 20%;
+  width: 30%;
+  margin-left: 10%;
+
+  cursor: pointer;
+  margin-right: 10%;
+  background-color: #311b92;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+.inputOutputpopUpMenuStyle1 {
+  color: #fff;
+  font-size: 1.4vw;
+  text-align: center;
+}
+
+@media (max-width: 1024px) and (min-width: 600px) {
+  .inputOutputPopupMain {
+    height: 25vh;
+  }
+
+  .inputOutputPopupCloseIcon {
+    top: -15%;
+    right: -12%;
+  }
+  .inputOutputPopupbtn {
+    margin-top: 5vh;
+  }
+}

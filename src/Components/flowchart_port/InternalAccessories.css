@@ -1,0 +1,241 @@
+.InternalAccessoriesScreen_Main {
+    height:  98vh !important;
+    width: 100%;
+}
+.InternalAccessoriesScreen_Main .Item-1 {
+    position: relative;
+    top:50px;
+    -webkit-transform: translate(15%,15%);
+    transform: translate(15%,15%);
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 100%;
+}
+
+.InternalAccessoriesScreen-Item1 {
+    position: relative;
+    height: 80%;
+    width: 100%;
+    top: 50%;
+    left: 12%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.InternalAccessoriesScreen-Item2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.device .deviceContainer {
+    height: 75%;
+    width: 80%;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-10%);
+    transform: translate(-50%,-10%);
+}
+
+.InternalAccessoriesScreen-Item2 .input .inputText {
+    position: absolute;
+    top: 20%;
+    font-size: 25px;
+    top: 18%;
+    -webkit-transform: translate(-30%,-50%);
+    transform: translate(-30%,-50%);
+    font-family: "Halcyon_SemiBold"!important;
+}
+
+.output .txtTitle {
+  font-size: 18px;
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  -webkit-transform: translate(-30%,-50%);
+  transform: translate(-30%,-50%);
+  font-family: "Halcyon_SemiBold"!important;
+}
+
+.device .deviceContainer .imgStyleEyeL {
+  width: 11% !important;
+  height: 30px !important;
+  position: absolute;
+  top: 34% !important;
+  left: 31% !important;
+}
+  
+  .device .deviceContainer .imgStyleEyeR {
+    width: 11% !important;
+    height: 30px !important;
+    position: absolute;
+    top: 34% !important;
+    left: 59.5% !important;
+  }
+  
+  .device .deviceContainer .imgStyleTeeth1 {
+    width: 2.7%;
+    height: 18px;
+    position: absolute;
+    top: 70.6%;
+    left: 39.7%;
+  }
+  
+  .device .deviceContainer .imgStyleTeeth2 {
+    width: 2.7%;
+    height: 18px;
+    position: absolute;
+    top: 72.1%;
+    left: 43%;
+  }
+  
+  .device .deviceContainer .imgStyleTeeth3 {
+    width: 2.7%;
+    height: 18px;
+    position: absolute;
+    top: 72.2%;
+    left: 55.1%;
+  }
+  
+  .device .deviceContainer .imgStyleTeeth4 {
+    width: 2.7%;
+    height: 16px;
+    position: absolute;
+    top: 70.6%;
+    left: 58.6%;
+  }
+  
+  .device .deviceContainer .imgStyle4in1 {
+    width: 7.5%;
+    height: 16px;
+    position: absolute;
+    top: 73%;
+    left: 47%;
+  }
+  
+  .device .deviceContainer .imgStyleMic {
+    width: 80px;
+    height: 91px !important; 
+    position: absolute;
+    top: -35% !important;
+    left: 48%;
+    -webkit-transform: translate(-48%,-5%);
+    transform: translate(-48%,-5%);
+    z-index: -1 !important; 
+  }
+  
+  .device .deviceContainer .imgStyleBuzzer {
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: -15%;
+    left: .5%;
+    -webkit-transform: translate(-1.5%);
+    transform: translate(-1.5%);
+    z-index: 3;
+  }
+  
+  .device .deviceContainer .imgStyleTouchpads1, .device .deviceContainer .imgStyleTouchpads2, .device .deviceContainer .imgStyleTouchpads3 {
+    height: 16.5%;
+    position: absolute;
+    bottom: -22.5%;
+    left: 15.3%;
+    -webkit-transform: translateX(-23.5%);
+    transform: translateX(-23.5%);
+  }
+  .device .deviceContainer .imgStyleTouchpads1, .device .deviceContainer .imgStyleTouchpads2, .device .deviceContainer .imgStyleTouchpads3 {
+    height: 16.5%;
+    position: absolute;
+    bottom: -22.5%;
+    left: 15.3%;
+    -webkit-transform: translateX(-23.5%);
+    transform: translateX(-23.5%);
+  }
+  
+  .device .deviceContainer .imgStyleTouchpads1, .device .deviceContainer .imgStyleTouchpads2, .device .deviceContainer .imgStyleTouchpads3 {
+    height: 16.5%;
+    position: absolute;
+    bottom: -22.5%;
+    left: 15.3%;
+    -webkit-transform: translateX(-23.5%);
+    transform: translateX(-23.5%);
+  }
+  
+  .device .deviceContainer .imgStyleTouchpads1{
+    -webkit-transform: translateX(-34.8%);
+    transform: translateX(-34.8%);
+  }
+  
+  .device .deviceContainer .imgStyleTouchpads2 {
+    left: 31%;
+    -webkit-transform: translateX(-34.8%);
+    transform: translateX(-34.8%);
+  }
+  
+  .device .deviceContainer .imgStyleTouchpads3{
+    left: 49%;
+    -webkit-transform: translateX(-34.8%);
+    transform: translateX(-34.8%);
+  }
+  
+  .InternalAccessoriesScreen-Item2 .input .inputContiner, .InternalAccessoriesScreen-Item2 .output .outputContiner {
+    width: 70%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    display: grid;
+    grid-template-rows: repeat(3,33%);
+    grid-template-columns: 100%;
+}
+.InternalAccessoriesScreen-Item2 .input .container-row, .InternalAccessoriesScreen-Item2 .output .container-row {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input .inputContiner .imgStyle ,.output .outputContiner .imgStyle {
+  width: 20%;
+  height: 70%;
+  margin-right: 4%;
+  cursor: pointer;
+}
+#snackbar1, #snackbar2, #snackbar3, #snackbar4, #snackbar5, #snackbar6, #snackbar7, #snackbar8, #snackbar9, #snackbar10, #snackbar11, #snackbar12, #snackbar13, #snackbar14, #snackbar15, #snackbar16, #snackbar17, #snackbar18, #snackbar19 {
+  visibility: hidden;
+  min-width: 150px;
+  margin-left: -125px;
+  background-color: #d2d2d2;
+  color: #000;
+  text-align: center;
+  border-radius: 25px;
+  font-family: "Halcyon_Regular"!important;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: -50%;
+  font-size: 17px;
+}
+
+/*
+
+.input .inputContiner .imgStyle , output .outputContiner .imgStyle {
+    width: 20%;
+    height: 75%;
+}
+.InternalAccessoriesScreen-Item2 .input .inputText , {
+    font-size: 25px;
+    top: 18%;
+}
+.InternalAccessoriesScreen_Main .Item-1 {
+    height: 70%;
+    width: 75%;
+}
+
+width: 66%;
+height: 525px;
+*/

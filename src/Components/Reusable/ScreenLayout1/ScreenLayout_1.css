@@ -1,0 +1,59 @@
+.ScreenLayoutcontainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 26% 55% 19%;
+}
+
+.ScreenLayoutcontainer .ScreenLayout-Item-BackButton {
+  display: flex;
+}
+
+
+.ScreenLayoutcontainer .ScreenLayout-Item-BackButton img {
+  cursor: pointer;
+  position: relative;
+  top: 15%;
+  left: 3%;
+}
+
+.ScreenLayoutcontainer .ScreenLayout-Item-BackButton h1 {
+  position: relative;
+  font-size: 2.7vw;
+  top: 1.7vw;
+  left: 3%;
+  color: #143494;
+}
+
+.ScreenLayoutcontainer .ScreenLayout-Item-Content {
+  /* background-color: blue; */
+}
+
+.ScreenLayoutcontainer .ScreenLayout-Item-discriptions {
+  /* background-color: red; */
+}
+
+.ScreenLayoutcontainer
+  .ScreenLayout-Item-discriptions
+  .ScreenLayout-DiscriptionDetails {
+  position: relative;
+  left: 18%;
+  top: 5;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 540px) {
+  .ScreenLayoutcontainer .ScreenLayout-Item-BackButton h1 {
+    position: relative;
+    font-size: 2.7vw;
+    top: 25px;
+    left: 3%;
+    color: #143494;
+  }
+
+  .ScreenLayoutcontainer .ScreenLayout-Item-BackButton img {
+    position: relative;
+    top: 15%;
+    left: 3%;
+    height: "10%";
+    width: "auto";
+  }
+}

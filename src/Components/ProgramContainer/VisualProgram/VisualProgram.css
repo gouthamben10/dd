@@ -1,0 +1,281 @@
+.visualProgram-container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 60% 40%;
+  user-select: none; /* Likely future */
+}
+
+.visualProgram-container .VP-backbtn {
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  z-index: 2;
+  user-select: none; /* Likely future */
+}
+.helpiconBtnSize {
+  position: absolute;
+  right: -22%;
+  top: 2%;
+  z-index: 2;
+}
+.S_slide {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0%;
+  z-index: 100000;
+  background: #fff;
+}
+.helpClose {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  height: 8%;
+  width: 4%;
+  z-index: 100000;
+}
+
+.visualProgram-container .VP-programmenucard {
+  position: absolute;
+  z-index: 1;
+  top: -4%;
+  left: 4%;
+  height: 175px;
+  width: 20%;
+  user-select: none; /* Likely future */
+}
+
+.visualProgram-container .VP-txt-Menu {
+  position: absolute;
+  z-index: 3;
+
+  top: 5.5%;
+  left: 11%;
+  color: #fff;
+  font-family: Halcyon_SemiBold !important;
+  font-size: 18px;
+  user-select: none; /* Likely future */
+}
+
+.visualProgram-container .VP-txt-Heading {
+  font-size: 28px;
+  color: #000;
+  font-family: Halcyon_Medium !important;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+.visualProgram-container .VP-hr {
+  width: 80px;
+  height: 4px;
+  position: absolute;
+  top: 22%;
+  left: 28%;
+  background: #30a8ce;
+  outline: none;
+  border: none;
+}
+
+.visualProgram-container .VP-txt-Heading2 {
+  font-size: 28px;
+  color: #000;
+  font-family: Halcyon_Medium !important;
+  position: absolute;
+  top: 20%;
+  right: 22%;
+}
+
+.visualProgram-container .VP-hr2 {
+  width: 80px;
+  height: 4px;
+  position: absolute;
+  top: 22%;
+  right: 15%;
+  background: #30a8ce;
+  outline: none;
+  border: none;
+}
+
+.visualProgram-container .VP-flowchartbased,
+.VP-programbased,
+.VP-blockbased,
+.VP-CCoding,
+.VP-pythoncodingbutton {
+  height: 47%;
+  width: 22%;
+  position: relative;
+  /* border: 1px solid red; */
+}
+
+.visualProgram-container .vp-item1 {
+  position: absolute;
+  top: 50%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+}
+.visualProgram-container .vp-item2 {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+.visualProgram-container .vp-item3 {
+  position: absolute;
+  top: 50%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+}
+.visualProgram-container .vp-item4 {
+  position: absolute;
+  top: 50%;
+  left: 69%;
+  transform: translate(-50%, -50%);
+}
+.visualProgram-container .vp-item5 {
+  position: absolute;
+  top: 50%;
+  left: 88%;
+  transform: translate(-50%, -50%);
+}
+.vp-item1 .VP-sub1 {
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-55%, -50%);
+
+  /* border: 1px solid green; */
+}
+.vp-item2 .VP-sub2 {
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-55%, -50%);
+
+  /* border: 1px solid green; */
+}
+.vp-item3 .VP-sub3 {
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-55%, -50%);
+
+  /* border: 1px solid green; */
+}
+.vp-item4 .VP-sub4 {
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-55%, -50%);
+
+  /* border: 1px solid green; */
+}
+.vp-item5 .VP-sub5 {
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-55%, -50%);
+
+  /* border: 1px solid green; */
+}
+.VP-sub1 .VP-sub-txt {
+  color: #000;
+  font-family: Halcyon_SemiBold !important;
+  font-size: 22px;
+  position: absolute;
+  top: 55%;
+}
+
+.VP-sub2 .VP-sub2-txt {
+  color: #000;
+  font-family: Halcyon_SemiBold !important;
+  font-size: 22px;
+  position: absolute;
+  top: 55%;
+}
+.VP-sub3 .VP-sub3-txt {
+  color: #000;
+  font-family: Halcyon_SemiBold !important;
+  font-size: 22px;
+  position: absolute;
+  top: 55%;
+}
+.VP-sub4 .VP-sub4-txt {
+  color: #000;
+  font-family: Halcyon_SemiBold !important;
+  font-size: 22px;
+  position: absolute;
+  top: 55%;
+}
+.VP-sub5 .VP-sub5-txt {
+  color: #000;
+  font-family: Halcyon_SemiBold !important;
+  font-size: 22px;
+  position: absolute;
+  top: 55%;
+}
+
+@media only screen and (max-device-width: 1440px) {
+  .visualProgram-container .VP-programmenucard {
+    top: -3%;
+    left: 4%;
+  }
+
+  .visualProgram-container .VP-txt-Menu {
+    top: 4.5%;
+  }
+}
+@media only screen and (max-device-width: 1800px) and (min-device-width: 1441px) {
+  .visualProgram-container .VP-programmenucard {
+    top: -4%;
+    left: 4%;
+    width: 15%;
+  }
+
+  .visualProgram-container .VP-txt-Menu {
+    top: 4.5%;
+    left: 9%;
+  }
+}
+@media only screen and (max-device-width: 2100px) and (min-device-width: 1801px) {
+  .visualProgram-container .VP-programmenucard {
+    top: -2.5%;
+    left: 4%;
+    width: 15%;
+  }
+
+  .visualProgram-container .VP-txt-Menu {
+    top: 4.5%;
+    left: 9%;
+  }
+}
+@media only screen and (max-device-width: 1024px) {
+  .visualProgram-container .VP-txt-Menu {
+    top: 4.5%;
+    /* left: 12%; */
+  }
+  .visualProgram-container .VP-programmenucard {
+    top: -3%;
+    left: 5%;
+  }
+  .visualProgram-container .VP-hr {
+    /* width: 80px;
+    height: 4px;
+    position: absolute; */
+    left: 38%;
+    top: 23%;
+  }
+}

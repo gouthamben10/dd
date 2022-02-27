@@ -1,0 +1,125 @@
+.SelectScreen-Main {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: red; */
+  /* border: 1px solid red; */
+}
+
+.SelectScreenBottom {
+  width: 95%;
+  height: 60px;
+  position: absolute;
+  bottom: 5px;
+  left: 2.5%;
+  display: flex;
+  z-index: 99;
+  /* border: 1px solid red; */
+}
+
+.SelectScreenBottom .bottom-child {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.SelectScreenBottom .bottom-child .imgBackBtn {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 150;
+}
+
+.SelectScreenBottom .bottom-child .imgNextBtn {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.SelectScreenBottom .simulateBtnBottom {
+  height: 100%;
+  width: 20%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.SelectScreenBottom .bottom-child .simulateBtn {
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.SelectScreenBottom .bottom-child .imgUploadBtn {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.SelectScreenBottom .decription {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #707070;
+}
+
+.SelectScreenBottom .decription p {
+  /* color: red; */
+  font-family: "Halcyon_Medium" !important;
+}
+.SelectScreen_ToggleBtn {
+  width: 100px;
+  height: 180px;
+  position: absolute;
+  top: 50%;
+  left: 0.5%;
+  transform: translate(-0.5%, -50%);
+  /* border: 1px solid red; */
+  z-index: 9;
+}
+
+.SelectScreen_ToggleBtn .ToggleImgInternalSensor {
+  width: 47%;
+  height: 45px;
+  position: absolute;
+  top: 55%;
+  left: 27%;
+  /* transform: translate(-27%, -55%); */
+  cursor: pointer;
+}
+
+.SelectScreen_ToggleBtn .ToggleImgExternalAccessor {
+  width: 47%;
+  height: 45px;
+  position: absolute;
+  top: 20%;
+  left: 27%;
+  cursor: pointer;
+}
+
+.SelectScreen_Container {
+  width: 100vw;
+  height: 90vh;
+  /* border: 1px solid red; */
+}
+
+.SelectScreen-Container {
+  width: 100vw;
+  height: 90vh;
+  /* background-color: #707070; */
+  /* border: 1px solid red; */
+}

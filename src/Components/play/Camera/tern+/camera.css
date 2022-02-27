@@ -1,0 +1,181 @@
+.Camera-Main {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 80% 10%;
+}
+
+.Camera_Header {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 7% 13% 66% 7% 7%;
+}
+.Camera_loader {
+  position: absolute;
+  z-index: 100;
+
+  top: 47%;
+  left: 29%;
+
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 10px solid #3498db;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+.loaderText {
+  position: absolute;
+  z-index: 100;
+
+  top: 53%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+
+  font-size: 2.3vw;
+
+  color: #fdfafa;
+  transform: scaleX(1);
+}
+
+.PopUp_Card {
+  height: auto;
+  width: 33%;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+.Camera123 {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+}
+.Camera_Disconnected {
+  height: auto;
+  width: 3.5%;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+.Camera_Ace {
+  height: auto;
+  width: 16%;
+  position: absolute;
+  top: 31%;
+  left: 61%;
+}
+.Camera_Instruc {
+  height: auto;
+  width: 33%;
+  font-size: 18px;
+  font-family: "Halcyon_Medium" !important;
+  color: #707070;
+  /* margin-top: 5%; */
+  /* margin-left: 30%; */
+  position: absolute;
+  bottom: 6%;
+  left: 34%;
+}
+.Musc_Slider {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0%;
+  z-index: 100000;
+  background: #fff;
+}
+.Crs {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  height: 10%;
+  width: 5%;
+  z-index: 100000;
+}
+
+@media screen and (max-width: 1445px) and (min-width: 1025px) {
+  .Camera_Ace {
+    height: auto;
+    width: 16%;
+    position: absolute;
+    top: 33%;
+    left: 65%;
+  }
+  .canvas {
+    top: 36.5% !important;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .Camera_Ace {
+    /* height: auto; */
+    /* width: 21%; */
+    /* position: absolute; */
+    top: 37%;
+    /* left: 61%; */
+  }
+  .PopUp_Card {
+    /* height: auto; */
+    width: 32%;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 30%; */
+    /* transform: translate(-50%, -50%); */
+  }
+  .Camera_Instruc {
+    /* height: auto; */
+    width: 41%;
+    font-size: 16px;
+    /* font-family: "Halcyon_Medium"; */
+    /* color: #707070; */
+    /* margin-top: 5%; */
+    /* margin-left: 30%; */
+    /* position: absolute; */
+    /* bottom: 6%; */
+    left: 31%;
+  }
+  .canvas {
+    top: 39.5% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .Camera_Ace {
+    /* height: auto; */
+    /* width: 21%; */
+    /* position: absolute; */
+    top: 38%;
+    /* left: 61%; */
+  }
+  .Camera_Disconnected {
+    /* height: auto; */
+    /* width: 3.5%; */
+    /* position: absolute; */
+    top: 51%;
+    /* left: 55%; */
+    /* transform: translate(-50%, -50%); */
+  }
+  .Camera_Instruc {
+    /* height: auto; */
+    width: 48%;
+    font-size: 14px;
+    /* font-family: "Halcyon_Medium"; */
+    /* color: #707070; */
+    /* margin-top: 5%; */
+    /* margin-left: 30%; */
+    /* position: absolute; */
+    /* bottom: 6%; */
+    left: 26%;
+  }
+  .canvas {
+    top: 39.5%;
+  }
+}

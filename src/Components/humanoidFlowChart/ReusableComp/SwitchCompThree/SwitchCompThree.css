@@ -1,0 +1,76 @@
+/* container */
+.txtSwitch {
+}
+
+.switchThree {
+  position: relative;
+  display: inline-block;
+  width: 105px;
+  height: 27px;
+  top: -40px;
+  left: 30px;
+}
+
+/* input display none */
+.switchThree input {
+  display: none;
+}
+
+/* create ui  */
+.sliderThree {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #289bf9;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+/* white ball */
+.sliderThree:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  right: 3px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+/* input check and slider background color green */
+input:checked + .sliderThree {
+  background-color: #fbbe08;
+}
+
+input:checked + .sliderThree:before {
+  -webkit-transform: translateX(-77px);
+  -ms-transform: translateX(-77px);
+  transform: translateX(-77px);
+}
+
+/*------ ADDED CSS ---------*/
+.sliderThree:after {
+  content: "analog";
+  color: white;
+  display: block;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 13px;
+  font-family: Verdana, sans-serif;
+}
+
+input:checked + .sliderThree:after {
+  content: "digital";
+  font-size: 13px;
+}
+
+/*--------- END --------*/

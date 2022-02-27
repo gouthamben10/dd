@@ -1,0 +1,183 @@
+.MainSec {
+  height: 100vh;
+  width: 100vw;
+  /* background-image: linear-gradient(orange 2%,white); */
+  background-color: #ffbc45;
+  animation: change 3s ease forwards;
+}
+
+.MainSeclogo {
+  position: absolute;
+  height: 300px;
+  width: 900px;
+  top: 50%;
+  transform: translateY(-50%);
+  animation: double 3s ease;
+}
+.Main_Sec_Title {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translateY(-50%);
+  animation: move 2s ease 0.5s backwards;
+  /* animation-duration: 5s; */
+}
+.Main_Sec_Rock {
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  right: -15%;
+  top: 60%;
+  transform: translateY(-50%);
+  animation: rocket 4s ease;
+  /* animation-name: move;
+    animation-duration: 5s; */
+}
+
+@keyframes change {
+  0% {
+    background-color: #ffbc45;
+  }
+  40% {
+    background-color: #ffbc45;
+  }
+  /* 60%{background-color: #fafafa;} */
+  100% {
+    background-color: #fafafa;
+  }
+}
+
+@keyframes move {
+  from {
+    transform: translateX(500px) translateY(-75px);
+  }
+  to {
+    transform: translateX(0) translateY(-75px);
+  }
+}
+
+@keyframes rocket {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes double {
+  0% {
+    height: 350px;
+    width: 950px;
+  }
+  30% {
+    height: 350px;
+    width: 950px;
+  }
+  100% {
+    height: 300px;
+    width: 900px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .MainSeclogo {
+    /* position: relative; */
+    height: 250px;
+    width: 710px;
+    top: 50%;
+    /* transform: translateY(-50%); */
+    /* animation: move 5s ease; */
+  }
+  .Main_Sec_Title {
+    height: 140px;
+    width: 140px;
+    /* position: absolute; */
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+    /* animation: move 5s ease 2s backwards; */
+    /* animation-duration: 5s; */
+  }
+  @keyframes move {
+    from {
+      transform: translateX(350px) translateY(-70px);
+    }
+    to {
+      transform: translateX(0) translateY(-70px);
+    }
+  }
+
+  @keyframes double {
+    0% {
+      height: 250px;
+      width: 710px;
+    }
+    30% {
+      height: 300px;
+      width: 720px;
+    }
+    100% {
+      height: 250px;
+      width: 710px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .MainSeclogo {
+    position: relative;
+    height: 228px;
+    width: 581px;
+    top: 50%;
+    transform: translateY(-50%);
+    /* animation: move 5s ease; */
+  }
+  .Main_Sec_Title {
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    top: 49%;
+    left: 12%;
+    transform: translateY(-50%);
+    /* animation: move 5s ease 2s backwards; */
+    /* animation-duration: 5s; */
+  }
+  .Main_Sec_Rock {
+    height: 350px;
+    width: 250px;
+    position: absolute;
+    right: -18%;
+    top: 60%;
+    transform: translateY(-50%);
+    /* animation: rocket 7s ease-out; */
+  }
+  @keyframes move {
+    from {
+      transform: translateX(250px) translateY(-65px);
+    }
+    to {
+      transform: translateX(0) translateY(-65px);
+    }
+  }
+
+  @keyframes double {
+    0% {
+      height: 228px;
+      width: 581px;
+    }
+    30% {
+      height: 278px;
+      width: 591px;
+    }
+    100% {
+      height: 228px;
+      width: 581px;
+    }
+  }
+}

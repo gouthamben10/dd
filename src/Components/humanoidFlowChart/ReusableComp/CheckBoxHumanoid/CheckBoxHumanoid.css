@@ -1,0 +1,66 @@
+.checkboxContainer input {
+  display: none;
+}
+
+.checkboxContainer {
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+  color: #ffffff;
+  top: 0%;
+  left: 0%;
+}
+
+.CheckBoxtext {
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+  margin: 0px 0px 0px 0px;
+}
+
+.checkboxContainer .checkmark {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background-color: #311b92;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  box-shadow: 0px 7px 10px #a9a9a9;
+}
+/* + sign is use for emidiate element */
+.checkboxContainer input:checked + .checkmark {
+  background-color: #4caf50;
+}
+
+@media (max-width: 480px) {
+  .checkboxContainer {
+    position: relative;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+    color: #ffffff;
+    top: 0%;
+    left: 0%;
+  }
+
+  .checkboxContainer .checkmark {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: #311b92;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    box-shadow: 0px 7px 10px #a9a9a9;
+  }
+  /* + sign is use for emidiate element */
+  .checkboxContainer input:checked + .checkmark {
+    background-color: #4caf50;
+  }
+}

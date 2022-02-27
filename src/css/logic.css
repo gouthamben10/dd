@@ -1,0 +1,395 @@
+.draw {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+#mainVariable {
+  /* width: 1000px; */
+  height: 500px;
+  /* border: 1px solid #c3c3c3; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  /* padding-left: 10vw; */
+  overflow-y: auto;
+}
+.radioMainContainer {
+  position: relative;
+  height: 80vh;
+  margin-left: 1%;
+  width: 99vw;
+}
+
+.radioItems {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 23%);
+  grid-template-rows: repeat(6, 16%);
+
+  column-gap: 2%;
+}
+
+#mainVariable tr {
+  display: inline-table;
+}
+.back_btn_logic {
+  height: 6vh;
+  width: 8vw;
+  border: 2px solid black;
+  border-radius: 50px;
+  background-color: #311b92;
+  top: 80vh;
+  left: 2vw;
+  position: absolute;
+  color: white;
+  text-align: center;
+  line-height: 35px;
+  z-index: 1000;
+  font-size: 1.5vw;
+  outline: none;
+  word-wrap: break-word;
+}
+.CSD {
+  display: inline-block;
+  /* height: 90%;
+    width: 25%;
+    margin-left: 72%;
+    z-index : 1000;
+    float: left;
+    color: white;
+    /* background-color: lightgray; */
+  height: 1vh;
+  /* width: 26%; */
+  /* margin-left: 72%; */
+  z-index: 1000;
+  /* float: left; */
+  color: white;
+  /* background-color: lightgray; */
+  position: absolute;
+  right: 3vw;
+  top: 0vh;
+}
+
+#main {
+  width: 100vw;
+  height: 500px;
+  /* border: 1px solid #c3c3c3; */
+  display: flex;
+  flex-wrap: wrap;
+  /* padding-left: 10vw; */
+  flex-direction: row;
+  overflow-y: auto;
+}
+
+#main tr {
+  display: inline-table;
+  width: "25%";
+}
+/* width: "25%",height:"60px",float:"left",position:"relative",backgroundColor:"lightgrey",marginLeft:"5%" */
+
+.outertabDiv {
+  position: relative;
+  /* border: 2px solid green; */
+}
+
+.outertabDiv-Hardware {
+  position: absolute;
+  top: 12%;
+  left: 6.5%;
+  font-family: "Halcyon_SemiBold";
+  height: 56.5vh;
+  width: 56vw;
+  /* border: 1px solid green; */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.hardwareInfo-section {
+  height: auto;
+  margin-bottom: 5%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 100%;
+}
+
+.isActivehardwareInfotrue {
+  opacity: 1;
+}
+.isActivehardwareInfofalse {
+  opacity: 0.3;
+}
+.isActivehardwareInfoundefined {
+  opacity: 0.3;
+}
+.hardwareInfo-section .portDetails-hw {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+
+.hardwareInfo-section .portSlider-hw {
+  display: flex;
+  align-items: center;
+  color: #000;
+  justify-content: flex-end;
+  background: #ebf6fa;
+  border-radius: 10px;
+  user-select: none;
+}
+
+.activeBuzzertrue {
+  background: #09b8a7;
+  color: #fff;
+}
+
+.activeBuzzerfalse {
+  background: #fff;
+  cursor: pointer;
+
+  color: #000;
+}
+
+.outertabDiv-Condation {
+  position: relative;
+  color: #000;
+  /* margin-top: 3%; */
+  height: 85%;
+  width: 85%;
+  top: 42.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* border: 1px solid blue; */
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family: "Halcyon_SemiBold";
+}
+
+.outertabDiv-Condation .margin-section {
+  width: 85%;
+  margin-left: 7%;
+  /* border: 1px solid red; */
+}
+
+.outertabDiv-Condation .select-sensor {
+  height: 57px;
+  font-size: 18px;
+  color: "#000";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outertabDiv-Condation .select-Condition {
+  height: 110px;
+  margin-top: 3%;
+  background-color: #ebf6fa;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.select-Condition .item {
+  position: relative;
+  width: 85px;
+  height: 85px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+.select-Condition .item img {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+}
+
+.select-Condition .item p {
+  font-size: 12px;
+  color: #707070;
+  position: absolute;
+  bottom: 0%;
+}
+
+.outertabDiv-Condation .select-slider {
+  height: max-content;
+  margin-top: 3%;
+  position: relative;
+}
+.select-sensor-Read {
+  margin-top: 10%;
+  height: 100px;
+  font-size: 18px;
+  color: "#000";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebf6fa;
+  border-radius: 10px;
+}
+
+.Wait-main-container {
+  position: relative;
+  color: #000;
+  height: 83%;
+  width: 75%;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 100%;
+  /* border: 1px solid blue; */
+}
+
+p {
+  font-family: Halcyon_SemiBold !important;
+}
+p1 {
+  font-family: Halcyon_SemiBold !important;
+}
+
+.sensor-txt {
+  font-family: Halcyon_Medium !important;
+}
+.waitPropertyTxt {
+  color: #000;
+  font-size: 18px;
+
+  font-family: Halcyon_SemiBold !important;
+}
+
+.inputDigit {
+  border: 1px solid white;
+}
+.inputDigit:focus {
+  outline: none;
+}
+
+.Wait-main-container .slider-section {
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(4, 25%);
+}
+
+.Wait-main-container .timer-section {
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.tabDiv {
+  display: inline-flex;
+  position: absolute;
+  top: -10.9vh;
+  left: 35vw;
+}
+.tabButton {
+  height: 6vh;
+  width: 8vw;
+  /* border-radius: 50px; */
+  /* background-color: #311B92; */
+  /* top: 90vh;
+    right: 5vw;
+    position: absolute; */
+  color: white;
+  text-align: center;
+  line-height: 35px;
+  z-index: 10;
+  font-size: 1.5vw;
+  word-wrap: break-word;
+  /* padding-left:"10px"; */
+  margin-left: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #311b92;
+  border: 2px solid#311B92;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+}
+.tabActive {
+  height: 8vh;
+  width: 8vw;
+  /* border-radius: 50px; */
+  background-color: #311b92;
+  /* top: 90vh;
+  right: 5vw;
+  position: absolute; */
+  color: white;
+  text-align: center;
+  line-height: 35px;
+  z-index: 10;
+  font-size: 1.5vw;
+  word-wrap: break-word;
+  /* padding-left:"10px"; */
+  margin-left: 5px;
+  margin-top: 10px;
+  border: 2px solid skyblue;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+  text-decoration: none;
+}
+.waitDiv .rc-slider-rail {
+  width: 103%;
+}
+.display_variable {
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10vh 0 0 25vw;
+}
+
+#Stepper-Main {
+  width: 70%;
+  height: 50px;
+  /* background: green; */
+  display: grid;
+  grid-template-columns: 30% 70%;
+  /* display: none; */
+}
+
+.STPM-MAIN {
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.Stepper-Toggle-Switch {
+  width: 100%;
+  height: 100%;
+  /* background: red; */
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 100%;
+  z-index: 99999;
+}
+
+.checkBox-conatiner {
+  height: 70%;
+  width: 75%;
+  border-radius: 6px;
+  position: relative;
+  user-select: none;
+}
+
+.renderClickfalse {
+  background-color: #e6e6e6;
+}
+.renderClicktrue {
+  background-color: #fff;
+}

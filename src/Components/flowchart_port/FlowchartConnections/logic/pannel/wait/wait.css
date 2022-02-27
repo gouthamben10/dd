@@ -1,0 +1,49 @@
+.outertabDiv-wait{
+    position: relative;
+    color: #000;
+    height: 550px;
+    width: 900px;
+    top: 42.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-position: -24px -30px;
+    background-size: 950px 590px;
+    background-repeat: no-repeat;
+    background-image: url('../../../../../../Assets/img/propertypanel@2x.png');
+}
+
+.wait-container {
+    position: relative;
+    color: #000;
+    height: 83%;
+    width: 75%;
+    top: 50%;
+    left: 48%;
+    padding: 2em;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 100%;
+}
+
+.wait-container .slider-section {
+    height: 100%;
+    width: 130%;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4, 25%);
+  }
+  
+  .wait-container .timer-section {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  } 

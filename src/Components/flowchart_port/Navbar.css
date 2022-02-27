@@ -1,0 +1,51 @@
+
+.flowchart-navbarContainer {
+  /* height: 61px; */
+  height: 10vh;
+  width: 100%;
+  background-color: #f0f7fa;
+  position: relative;
+  z-index: 80000;
+  /* border: 5px solid blue; */
+}
+
+.flowchart-navbar_content {
+  width: 50% !important;
+  left: 1.5% !important;
+}
+
+.flowchart-navbar_new {
+  list-style: none;
+  color: #000000;
+  /* font-family: Halcyon_SemiBold; */
+  /* color: red; */
+  font-family: "Halcyon_SemiBold" !important;
+}
+
+.navbar_right{
+  display: inline-block;
+}
+
+.flowchart-iconBtnSize{
+  position: relative;
+  right: 0vw;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+
+
+.isActive {
+  color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .flowchart-navbar_new{
+    width: 150px !important;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .flowchart-navbar_new{
+    width: 130px !important;
+  }
+}

@@ -1,0 +1,32 @@
+.selectPort-menu-item1 {
+  position: relative;
+}
+
+.selectPort-menuImg {
+  height: 40px;
+  width: 100%;
+}
+
+.selectPort-menuImg2 {
+  height: 60px;
+  width: 100%;
+}
+.selectPortMenuText {
+  position: absolute;
+  color: #918ac8;
+  top: -20%;
+  left: 0%;
+  right: 0%;
+  text-align: center;
+  font-weight: 500;
+}
+
+.selectPortMenu2Text {
+  position: absolute;
+  color: #ffffff;
+  font-weight: 500;
+  top: 20%;
+  left: 0%;
+  right: 0%;
+  text-align: center;
+}

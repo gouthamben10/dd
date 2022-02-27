@@ -1,0 +1,26 @@
+.camera {
+  border: 0.3vw solid #311b92;
+  border-radius: 12px;
+  position: relative;
+  top: 8vw;
+  left: 14vw;
+  width: 46vw;
+  height: 31vw;
+  transform: scaleX(-1);
+}
+
+.faceOP {
+  position: absolute;
+  top: 40vw;
+  color: #311b92;
+  left: 36vw;
+}
+
+.connectionContainer {
+  height: 50%;
+  width: 30%;
+  position: absolute;
+  /* border: 1px solid red; */
+  top: 5%;
+  right: 10%;
+}

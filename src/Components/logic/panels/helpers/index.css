@@ -1,0 +1,107 @@
+.SliderRangeContainer {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 10% 90%;
+  /* grid-template-columns: 20% 80%; */
+  /* column-gap: 3%; */
+  grid-template-rows: 100%;
+  /* border: 1px solid red; */
+}
+
+.SliderRangeMain {
+  width: 85%;
+  position: relative;
+  height: 15px;
+  /* background-color: aqua; */
+  margin-left: 6%;
+  margin-top: 7%;
+
+  /* box-sizing: border-box; */
+}
+
+#PanelsliderRange {
+  -webkit-appearance: none;
+  width: 100%;
+  border-radius: 10px;
+  height: 9.5px;
+  outline: none;
+}
+
+#PanelsliderRange::-webkit-slider-thumb {
+  -webkit-appearance: none;
+
+  position: relative;
+  width: 36px;
+  height: 36px;
+  z-index: 3;
+  /* border: 1px solid red; */
+  background-image: url("../../../../Assets/sliderbutton@2x.png");
+  background-repeat: no-repeat;
+  background-size: 45px 45px;
+  border-radius: 50%;
+  background-position-x: -4.8px;
+  background-position-y: 0px;
+}
+
+#selectorContainer {
+  height: 40px;
+  width: 50px;
+  position: absolute;
+  top: -50%;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-left: -0%;
+  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.selectorButtonImg {
+  height: 48px;
+  width: 48px;
+  /* background-color: black; */
+  position: relative;
+  background-position-x: -8px;
+
+  background-position-y: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  #PanelsliderRange::-webkit-slider-thumb {
+    width: 30px;
+    height: 40px;
+    background-size: 45px 95%;
+  }
+  #PanelsliderRange {
+    /* -webkit-appearance: none; */
+    /* width: 100%; */
+    /* border-radius: 10px; */
+    /* border: 1px solid orange; */
+    height: 5px;
+    /* outline: none; */
+  }
+}
+/* @media screen and (max-width: 1024px) and (min-width: 540px) {
+    #PanelsliderRange::-webkit-slider-thumb {
+      width: 40px;
+      height: 55px;
+      border: 1px solid red;
+      background-size: 55px 95%;
+  
+      background-position-x: -9.5px;
+      background-position-y: 7px;
+    }
+  }
+  
+  @media screen and (min-width: 1135px) {
+    #sliderRange::-webkit-slider-thumb {
+      width: 40px;
+      height: 55px;
+      border: 1px solid red;
+      background-size: 55px 95%;
+  
+      background-position-x: -9.5px;
+      background-position-y: 7px;
+    }
+  } */

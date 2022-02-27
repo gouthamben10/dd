@@ -1,0 +1,455 @@
+.Music-Main {
+  height: 100vh;
+  width: 100vw;
+  /* background-image: url("../../Assets/soundwaves.png"); */
+  /* background-position: center; */
+  /* box-sizing: content-box; */
+  /* background-size: 1218px, 990px; */
+  /* background-position-x: 115%; */
+
+  /* background-position: 50% 150%; */
+  display: grid;
+  /* border: 1px solid red; */
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 80% 10%;
+}
+.Music_Header {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  /* border: 1px solid red; */
+  grid-template-columns: 7% 13% 69% 5% 6%;
+  grid-template-rows: 100%;
+}
+
+.Music_Body {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60% 7% 17% 16%;
+}
+.Music_Instruc {
+  height: auto;
+  width: 33%;
+  font-size: 18px;
+  font-family: "Halcyon_Medium";
+  color: #707070;
+  /* margin-top: 5%; */
+  /* margin-left: 30%; */
+  position: absolute;
+  bottom: 6%;
+  left: 40%;
+}
+/* .test {
+  font-family: "Halcyon_SemiBold";
+} */
+.Music_Instruc2 {
+  height: auto;
+  width: 34%;
+  font-size: 18px;
+  font-family: "Halcyon_Medium";
+  color: #707070;
+  /* margin-top: 5%; */
+  /* margin-left: 30%; */
+  position: absolute;
+  bottom: 6%;
+  left: 36%;
+}
+
+.Piano_p {
+  height: 19.8vw;
+  width: 51.5vw;
+  position: relative;
+  left: 7vw;
+  top: 10vw;
+  border: 0.1vw solid #ffbc45;
+  border-radius: 0.3vw;
+  box-shadow: 2vh 0.59vw 0vw #d8d9d9;
+  background: #ffbc45 0% 0% no-repeat padding-box;
+  z-index: 0;
+}
+
+div .li {
+  padding: 0;
+  list-style: none;
+  position: relative;
+  float: left;
+  z-index: 500;
+}
+
+div .white {
+  height: 16vw;
+  width: 5.9vw;
+  z-index: 1;
+  /* border: 0.14vw solid black; */
+  /* border-radius: 0 0 1vw 1vw; */
+  box-shadow: 0.4vh 0.69vw 1vw #0000009e;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fcfcfc),
+    to(#fcfcfc)
+  );
+  background: linear-gradient(to bottom, #fcfcfc 0%, #fcfcfc 100%);
+}
+
+div .white:active {
+  box-shadow: 0.2vw 0 0.2vw rgba(0, 0, 0, 0.1) inset,
+    -0.5vw 0.5vw 2vw rgba(0, 0, 0, 0.2) inset, 0 0 0.3vw rgba(0, 0, 0, 0.2);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fcfcfc),
+    to(#fcfcfc)
+  );
+  background: #fcfcfc;
+}
+div .black,
+.white:hover {
+  cursor: pointer;
+}
+
+.black {
+  height: 7vw;
+  width: 3vw;
+  margin: 3vw -1.5vw !important;
+  z-index: 2;
+  border: 0.1vw solid #000;
+  /* border-radius: 0 0 0.3vw 0.3vw; */
+  /* box-shadow: 0vh 0.39vw 1vw #0000009e; */
+  background: linear-gradient(45deg, #222 0%, #555 100%);
+  background: #171d1a;
+}
+
+.black:active {
+  box-shadow: -0.1vw -0.1vw 0.2vw rgba(255, 255, 255, 0.2) inset,
+    0 -0.2vw 0.2vw 0.3vw rgba(0, 0, 0, 0.6) inset,
+    0 0.1vw 0.2vw rgba(0, 0, 0, 0.5);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#444),
+    to(#222)
+  );
+  background: linear-gradient(45deg, #222 0%, rgb(43, 42, 42) 100%);
+}
+
+.b,
+.c,
+.e,
+.f {
+  margin: 3vw 0 0 0.3vw;
+}
+
+.a {
+  margin: 3vw 0vh 0 1vw;
+}
+.d,
+.g {
+  margin: 3vw 0vh 0 0.3vw;
+}
+.h {
+  margin: 3vw 0vh 0 0.3vw;
+  border-radius: 0 0 1vw 1vw;
+}
+.as,
+.bs,
+.ds,
+.es,
+.hs {
+  margin: 2vw 0 0 -0.5vw;
+}
+
+.hs {
+  width: 1.5vw;
+  border-bottom-left-radius: 3vw;
+}
+
+.h {
+  border-bottom-right-radius: 0 !important;
+}
+
+.Piano_Big {
+  height: auto;
+  width: 57%;
+  position: absolute;
+  top: 29%;
+  left: 6%;
+  z-index: -1;
+}
+.Piano_Small {
+  height: auto;
+  width: 25%;
+  position: absolute;
+  top: 28.8%;
+  left: 55%;
+  /* z-index: -1; */
+}
+.Disconnected {
+  height: auto;
+  width: 3.5%;
+  position: absolute;
+  top: 44%;
+  left: 62.5%;
+}
+.Disconnect {
+  height: auto;
+  width: 3.5%;
+  position: absolute;
+  top: 44%;
+  left: 46.5%;
+}
+.Music_Ace {
+  height: auto;
+  width: 19%;
+  position: absolute;
+  top: 31%;
+  left: 67%;
+}
+.Music_Ac {
+  height: auto;
+  width: 17%;
+  position: absolute;
+  top: 31%;
+  left: 24%;
+}
+.Pianotoggle_Bg {
+  height: auto;
+  width: 6.5%;
+  position: absolute;
+  top: 40%;
+  right: 1%;
+}
+.Piano_Keys {
+  height: auto;
+  width: 4%;
+  cursor: pointer;
+  position: absolute;
+  top: 44.5%;
+  right: 2.2%;
+}
+.Pc_Piano {
+  height: auto;
+  width: 4%;
+  cursor: pointer;
+  position: absolute;
+  top: 52.5%;
+  right: 2.2%;
+}
+
+.Musc_Slider {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0%;
+  z-index: 100000;
+  background: #fff;
+}
+.Ros {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  height: 10%;
+  width: 5%;
+  z-index: 100000;
+}
+
+@media screen and (max-width: 1442px) and (min-width: 1025px) {
+  .Piano_p {
+    top: 10vw;
+  }
+
+  .Pc_Piano {
+    /* height: auto; */
+    /* width: 4%; */
+    /* cursor: pointer; */
+    /* position: absolute; */
+    top: 51%;
+    right: 2.1%;
+  }
+  .Piano_Keys {
+    /* height: auto; */
+    /* width: 4%; */
+    /* cursor: pointer; */
+    /* position: absolute; */
+    top: 43.5%;
+    right: 2.1%;
+  }
+  .Music_Instruc {
+    /* height: auto; */
+    /* width: 33%; */
+    font-size: 21px;
+    /* font-family: "Halcyon_Medium"; */
+    /* color: #707070; */
+    /* margin-top: 5%; */
+    /* margin-left: 30%; */
+    /* position: absolute; */
+    /* bottom: 6%; */
+    /* left: 40%; */
+  }
+  .Music_Instruc2 {
+    /* height: auto;  */
+    /* width: 34%; */
+    font-size: 21px;
+    /* font-family: "Halcyon_Medium"; */
+    /* color: #707070; */
+    /* margin-top: 5%; */
+    /* margin-left: 30%; */
+    /* position: absolute; */
+    /* bottom: 6%; */
+    /* left: 36%; */
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .Music_Instruc {
+    /* height: auto; */
+    /* width: 33%; */
+    font-size: 17px;
+    /* font-family: "Halcyon_Medium"; */
+    /* color: #707070; */
+    /* margin-top: 5%; */
+    /* margin-left: 30%; */
+    /* position: absolute; */
+    /* bottom: 6%; */
+    left: 38%;
+  }
+  .Help_Btnn {
+    /* height: auto; */
+    /* width: 5%; */
+    /* position: absolute; */
+    /* top: 4%; */
+    right: 7.5%;
+  }
+  .Music_Instruc2 {
+    /* height: auto;  */
+    width: 39%;
+    font-size: 17px;
+    /* font-family: "Halcyon_Medium"; */
+    /* color: #707070; */
+    /* margin-top: 5%; */
+    /* margin-left: 30%; */
+    /* position: absolute; */
+    /* bottom: 6%; */
+    left: 32%;
+  }
+  .Pianotoggle_Bg {
+    /* height: auto; */
+    width: 7%;
+    /* position: absolute; */
+    top: 38.3%;
+    /* right: 6.7%; */
+  }
+  .Piano_p {
+    top: 14.5vw;
+  }
+  .Piano_Keys {
+    /* height: auto; */
+
+    width: 4%;
+    top: 42%;
+    right: 2.4%;
+  }
+  .Pc_Piano {
+    /* height: auto; */
+    /* width: 4%; */
+    /* cursor: pointer; */
+    /* position: absolute; */
+    top: 48.5%;
+    right: 2.4%;
+  }
+}
+
+@media (max-width: 768px) {
+  .Piano_p {
+    top: 22vw;
+  }
+  .Piano_Big {
+    /* height: auto; */
+    /* width: 57%; */
+    /* position: absolute; */
+    top: 34%;
+    /* left: 6%; */
+    /* z-index: -1; */
+  }
+  .Music_Instruc {
+    /* height: auto; */
+    width: 37%;
+    font-size: 16px;
+    /* font-family: "Halcyon_Medium"; */
+    /* color: #707070; */
+    /* margin-top: 5%; */
+    /* margin-left: 30%; */
+    /* position: absolute; */
+    /* bottom: 6%; */
+    left: 33%;
+  }
+  .Music_Instruc2 {
+    /* height: auto;  */
+    width: 49%;
+    font-size: 16px;
+    /* font-family: "Halcyon_Medium"; */
+    /* color: #707070; */
+    /* margin-top: 5%; */
+    /* margin-left: 30%; */
+    /* position: absolute; */
+    /* bottom: 6%; */
+    left: 26%;
+  }
+  .Music_Ace {
+    /* height: auto; */
+    /* width: 21%; */
+    /* position: absolute; */
+    top: 35%;
+    /* left: 67%; */
+  }
+  .Pianotoggle_Bg {
+    /* height: auto; */
+    width: 7.5%;
+    /* position: absolute; */
+    /* top: 40%; */
+    /* right: 6%; */
+  }
+  .Piano_Keys {
+    /* height: auto; */
+    width: 4.4%;
+    /* cursor: pointer; */
+    /* position: absolute; */
+    top: 43%;
+    right: 2.5%;
+  }
+  .Pc_Piano {
+    /* height: auto; */
+    width: 4.5%;
+    /* cursor: pointer; */
+    /* position: absolute; */
+    top: 48%;
+    right: 2.5%;
+  }
+
+  .Music_Ac {
+    /* height: auto; */
+    width: 23%;
+    /* position: absolute; */
+    top: 33%;
+    left: 18%;
+  }
+  .Disconnect {
+    /* height: auto; */
+    /* width: 4%; */
+    /* position: absolute; */
+    top: 44%;
+    left: 43.5%;
+  }
+  .Piano_Small {
+    /* height: auto; */
+    /* width: 25%; */
+    /* position: absolute; */
+    top: 31.8%;
+    /* left: 55%; */
+    /* z-index: -1; */
+  }
+}

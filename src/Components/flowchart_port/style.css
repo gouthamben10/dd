@@ -1,0 +1,460 @@
+.Container {
+  border: 1px solid blue;
+  border-radius: 15px;
+  padding: 15px;
+  width: 50%;
+  display: none;
+  margin-top: 1%;
+  height: 50px;
+  @media (max-width: 724px) {
+    margin-top: 5px;
+  }
+  @media (max-width: 644px) {
+    width: 30%;
+  }
+  @media (max-width: 644px) {
+    width: 30%;
+  }
+  @media (max-width: 409px) {
+    font-size: 0.8rem;
+  }
+  @media (max-width: 328px) {
+    font-size: 0.7rem;
+  }
+}
+
+
+.HeaderContainer {
+  text-align: center;
+  width: 100vw;
+  height: 8.09vh;
+  margin-bottom: 15px;
+  padding-top: 0px;
+}
+
+.Main {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 40px;
+  width: 100%;
+}
+
+/* gskcode css */
+.myClass {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Modal */
+
+.modal{
+  overflow: hidden !important;
+}
+.modal-body {
+  position: relative;
+  top: 10vh;
+  /* flex: 3 1 auto; */
+  /* padding: 0rem; */
+  left : -70px;
+  width: 62vw;
+  height: 89vh;
+}
+.modal-backdrop {
+  background-color: white;
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  pointer-events: auto;
+  background-clip: padding-box;
+  border: none !important;
+  border-radius: 2.3rem;
+  outline: 0;
+
+  height: 85%;
+  width: 65%;
+  position: absolute;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  background-image: url('../../Assets/img/propertypanel@2x.png');
+  background-size: 100% 90%;
+}
+
+
+/* Input and Digital css */
+
+.flow-left-upper {
+      position: relative;
+      top: 14vh;
+      right: -16vw;
+      width: 302pt;
+      height: 178pt;
+      background: transparent url("../../Assets/img/popup card@2x.png") 0% 0% no-repeat
+        padding-box;
+}
+.flow-left-upper-grp {
+    position: relative;
+    top: 11vh;
+    right: -9vw;
+}
+
+.upper-label-input > span,
+.lower-label-input > span {
+  top: -1vh !important;
+}
+
+@media screen and (max-width:1200px) {
+  .flow-left-upper-grp {
+    top: 10.5vh;
+    right: -12vw;
+}
+}
+/* @media screen and (min-width:1450px) and (max-width:1600px) {
+  .flow-left-upper-grp {
+    top: 10vh;
+    right: -9vw;
+  }
+} */
+@media screen and (min-width:1600px){
+  .flow-left-upper-grp {
+    top: 10vh;
+    right: -7.5vw;
+  }
+}
+
+/* ================================================================= */
+
+/* Port Input Digital css*/
+
+.MainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 23vh;
+  @media (max-width: 800px) {
+    transform: scale(0.96);
+    left: 2%;
+  }
+  @media (max-width: 700px) {
+    left: 0;
+  }
+  @media (max-width: 624px) {
+    transform: scale(0.9);
+  }
+  @media (max-width: 584px) {
+    transform: scale(0.8);
+  }
+  @media (max-width: 500px) {
+    transform: scale(0.7);
+  }
+  @media (max-width: 424px) {
+    transform: scale(0.65);
+  }
+  @media (max-width: 388px) {
+    transform: scale(0.55);
+    bottom: 80px;
+  }
+  @media (max-width: 320px) {
+    transform: scale(0.5);
+  }
+  @media (min-height: 900px) {
+    transform: scale(1);
+    top: 150px;
+  }
+  @media (max-height: 670px) {
+    @media (max-height: 400px) {
+      transform: scale(0.7);
+      bottom: 50px;
+    }
+  }
+}
+.MainContainerInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 15vh;
+  @media (max-width: 800px) {
+    transform: scale(0.96);
+    left: 2%;
+  }
+  @media (max-width: 700px) {
+    left: 0;
+  }
+  @media (max-width: 624px) {
+    transform: scale(0.9);
+  }
+  @media (max-width: 584px) {
+    transform: scale(0.8);
+  }
+  @media (max-width: 500px) {
+    transform: scale(0.7);
+  }
+  @media (max-width: 424px) {
+    transform: scale(0.65);
+  }
+  @media (max-width: 388px) {
+    transform: scale(0.55);
+    bottom: 80px;
+  }
+  @media (max-width: 320px) {
+    transform: scale(0.5);
+  }
+  @media (min-height: 900px) {
+    transform: scale(1);
+    top: 150px;
+  }
+  @media (max-height: 670px) {
+    @media (max-height: 400px) {
+      transform: scale(0.7);
+      bottom: 50px;
+    }
+  }
+}
+.ButtonBackground {
+  border: 2px solid #311b92;
+  padding: 10px;
+  margin: 12px;
+  border-radius: 35px;
+  display: flex;
+  justify-content: space-around;
+
+  width: 100%;
+}
+/* .ButtonBackground .im {
+  border: 2px solid #311b92;
+  padding: 10px;
+  margin: 12px;
+  border-radius: 35px;
+  display: flex;
+  justify-content: space-around;
+  background: url("./assets/img/popup card.png");
+  width: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+} */
+
+.ButtonDiv {
+  position: relative;
+  top: 0vh;
+  right: 8vw;
+  @media (max-width: 810px) {
+    right: 45px;
+  }
+  @media (max-width: 715px) {
+    right: 20px;
+  }
+  @media (max-width: 500px) {
+    right: 20px;
+  }
+}
+
+.ButtonRightDiv {
+  position: relative;
+  top: 0vh;
+  right: 7vw;
+  @media (max-width: 810px) {
+    right: 45px;
+  }
+  @media (max-width: 715px) {
+    right: 20px;
+  }
+  @media (max-width: 500px) {
+    right: 20px;
+  }
+}
+
+.ButtonDivInput {
+  position: relative;
+  top: -15vh;
+  right: 15vw;
+  @media (max-width: 810px) {
+    right: 45px;
+  }
+  @media (max-width: 715px) {
+    right: 20px;
+  }
+  @media (max-width: 500px) {
+    right: 20px;
+  }
+}
+.ButtonRightDivInput {
+  position: relative;
+  top: -15vh;
+  right: 18vw;
+  @media (max-width: 810px) {
+    right: 45px;
+  }
+  @media (max-width: 715px) {
+    right: 20px;
+  }
+  @media (max-width: 500px) {
+    right: 20px;
+  }
+}
+.CenterImg {
+  display: flex;
+  width: 18%;
+  position: relative;
+}
+.iconBtnSize {
+  height: 60px;
+  width: 60px;
+}
+.InputLabel {
+  color: white;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.InputCheckBox {
+  /* margin-left: 8px; */
+  appearance: none;
+
+  /* width: 25px;
+  height: 25px; */
+  /* border-radius: 25px; */
+  /* top: 164px;
+  left: 232px; */
+  width: 40px;
+  height: 40px;
+  background: transparent url("../../Assets/img/a1.png") 0% 0% no-repeat padding-box;
+
+  position: relative;
+  /* top: 7px; */
+/*   &:checked {
+    background-color: green;
+  }
+
+  &:focus {
+    outline: none !important;
+  }
+  @media (max-width: 768px) {
+    padding: 0;
+    margin: 0;
+  } */
+}
+.InputCheckBox:checked {
+  width: 40px;
+  height: 40px;
+  background: transparent url("../../Assets/img/a-1.png") 0% 0% no-repeat
+    padding-box;
+  color: white;
+  position: relative;
+/*   &:checked {
+    background-color: green;
+  }
+
+  &:focus {
+    outline: none !important;
+  }
+  @media (max-width: 768px) {
+    padding: 0;
+    margin: 0;
+  } */
+}
+
+.A1 {
+  color: black;
+  position: relative;
+  top: -1.2em;
+  left: -2.1em;
+  font-size: 0.8em;
+
+  pointer-events: none;
+}
+.BottomContainer {
+  border: 1px solid blue;
+  border-radius: 15px;
+  padding: 15px;
+  width: 75%;
+  margin-left: 12.5%;
+  @media (max-width: 450px) {
+    width: 90%;
+    margin-left: 0.5%;
+  }
+}
+
+.SwitchButton {
+  position: relative;
+  top: 8px;
+}
+.tlb {
+  position: relative;
+  top: 0vh;
+  right: -7vw;
+  width: 150pt;
+  height: 91pt;
+  background: transparent url("../../Assets/img/popup card.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+.tlbIn {
+  padding: 10px;
+  margin: 12px;
+  border-radius: 35px;
+  /* display: flex; */
+  justify-content: space-around;
+  position: relative;
+  left: 12%;
+  top: 30%;
+  width: 100%;
+}
+
+.textsp {
+  position: relative;
+  top: -1vh;
+  left: -2vw;
+}
+.upper-label-input {
+  position: relative;
+  width: 0px;
+  height: 0px;
+  left: 0vw;
+  top: -1vh;
+}
+label {
+  display: inline;
+}
+.hid1 {
+  position: relative;
+  left: -1.8vw;
+  top: 0.5vh;
+}
+.ends {
+  position: relative;
+  top: 48vh;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans;
+}
+.last-item {
+  position: relative;
+  left: 45.5vw;
+  top: -7vh;
+}
+.left {
+  position: relative;
+  left: 20.6vw;
+  top: 1vh;
+}
+.left-n {
+  position: relative;
+  left: 80.6vw;
+  top: 1vh;
+}
+.CenterImg {
+  display: flex;
+  position: relative;
+  top: 1vh;
+  left: 0.7em;
+}
+
+/* ---------------------------------------------------------------- */

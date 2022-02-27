@@ -1,0 +1,192 @@
+@media only screen and (max-device-width: 1440px) and (min-device-width: 1025px) {
+  .Left_Eye_Inactive {
+    /* height: 20px; */
+    /* width: 25px; */
+    width: 1.7%;
+    /* position: absolute; */
+    top: 39%;
+    left: 47.3%;
+    /* transform: translate(-50%, -50%); */
+  }
+  .Right_Eye_Inactive {
+    /* height: 20px; */
+    /* width: 25px; */
+    width: 1.7%;
+    /* position: absolute; */
+    top: 39%;
+    left: 51.8%;
+    /* transform: translate(-50%, -50%); */
+  }
+  .Ace_Teeth1 {
+    width: 5.5px;
+    height: 9px;
+    /* position: absolute; */
+    top: 45.8%;
+    left: 48%;
+    /* transform: translate(-50%, -50%); */
+  }
+  .Ace_Teeth2 {
+    width: 5.5px;
+    height: 9px;
+    /* position: absolute; */
+    top: 46.17%;
+    left: 48.5%;
+    /* transform: translate(-50%, -50%); */
+  }
+  .Ace_Teeth3 {
+    width: 5.5px;
+    height: 9px;
+    /* position: absolute; */
+    top: 46.17%;
+    left: 50.5%;
+    /* transform: translate(-50%, -50%); */
+  }
+  .Ace_Teeth4 {
+    width: 5.5px;
+    height: 9px;
+    /* position: absolute; */
+    top: 45.8%;
+    left: 51%;
+    /* transform: translate(-50%, -50%); */
+  }
+  .Ace_4Teeth {
+    width: 19px;
+    height: 11px;
+    /* position: absolute; */
+    top: 46.2%;
+    left: 49.5%;
+    /* transform: translate(-50%, -50%); */
+  }
+}
+@media only screen and (max-device-width: 1280px) {
+  .Left_Eye_Inactive {
+    top: 38%;
+  }
+  .Right_Eye_Inactive {
+    top: 38%;
+  }
+  .Ace_Teeth1 {
+    top: 44%;
+  }
+  .Ace_Teeth2 {
+    top: 44.4%;
+  }
+  .Ace_Teeth3 {
+    top: 44.4%;
+  }
+  .Ace_Teeth4 {
+    top: 44%;
+  }
+  .Ace_4Teeth {
+    height: 10px;
+    top: 44.6%;
+  }
+}
+@media only screen and (max-device-width: 1454px) and (min-device-width: 1441px) {
+  .Left_Eye_Inactive {
+    top: 39%;
+  }
+  .Right_Eye_Inactive {
+    top: 39%;
+  }
+  .Ace_Teeth1 {
+    top: 46%;
+  }
+  .Ace_Teeth2 {
+    top: 46.3%;
+  }
+  .Ace_Teeth3 {
+    top: 46.3%;
+  }
+  .Ace_Teeth4 {
+    top: 46%;
+  }
+  .Ace_4Teeth {
+    height: 11px;
+    top: 46.5%;
+  }
+}
+@media only screen and (max-device-width: 1480px) and (min-device-width: 1454px) {
+  .Left_Eye_Inactive {
+    top: 39%;
+  }
+  .Right_Eye_Inactive {
+    top: 39%;
+  }
+  .Ace_Teeth1 {
+    top: 46.2%;
+  }
+  .Ace_Teeth2 {
+    top: 46.5%;
+  }
+  .Ace_Teeth3 {
+    top: 46.5%;
+  }
+  .Ace_Teeth4 {
+    top: 46.2%;
+  }
+  .Ace_4Teeth {
+    width: 18px;
+    top: 46.7%;
+  }
+}
+@media only screen and (max-device-width: 1501px) and (min-device-width: 1481px) {
+  .Ace_Teeth1 {
+    top: 48.4%;
+  }
+  .Ace_Teeth2 {
+    top: 48.8%;
+  }
+  .Ace_Teeth3 {
+    top: 48.8%;
+  }
+  .Ace_Teeth4 {
+    top: 48.4%;
+  }
+  .Ace_4Teeth {
+    top: 49%;
+  }
+  .PC_img {
+    top: 26.4%;
+  }
+}
+@media only screen and (max-device-width: 1520px) and (min-device-width: 1501px) {
+  .Ace_Teeth1 {
+    top: 48.7%;
+  }
+  .Ace_Teeth2 {
+    top: 49%;
+  }
+  .Ace_Teeth3 {
+    top: 49%;
+  }
+  .Ace_Teeth4 {
+    top: 48.7%;
+  }
+  .Ace_4Teeth {
+    top: 49.3%;
+  }
+  .PC_img {
+    top: 26.4%;
+  }
+}
+@media only screen and (max-device-width: 1540px) and (min-device-width: 1521px) {
+  .Ace_Teeth1 {
+    top: 48.7%;
+  }
+  .Ace_Teeth2 {
+    top: 49%;
+  }
+  .Ace_Teeth3 {
+    top: 49%;
+  }
+  .Ace_Teeth4 {
+    top: 48.7%;
+  }
+  .Ace_4Teeth {
+    top: 49.3%;
+  }
+  .PC_img {
+    top: 26.2%;
+  }
+}

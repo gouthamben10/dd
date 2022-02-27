@@ -1,0 +1,21 @@
+.tutorail{
+    text-align: center;
+    border: 2px solid black;
+    position: relative;
+    margin-left: 25%;
+    width: 50%;
+    height: 90%;
+    top: 3%
+}
+
+.tutorail>input:focus{
+    border-color: #b8cedb;
+}
+.save_back_button{
+    height: 45px;
+    width:  45px;
+    position:absolute;
+    top:5%;
+    left:5%;
+    outline:"none"
+}

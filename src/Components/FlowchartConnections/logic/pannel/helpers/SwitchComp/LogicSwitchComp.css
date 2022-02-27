@@ -1,0 +1,89 @@
+/* container */
+.txtswitch {
+}
+
+.Logic-switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+  top: -40px;
+  left: 30px;
+}
+
+/* input display none */
+.Logic-switch input {
+  display: none;
+}
+
+/* create ui  */
+.Logic-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* BLUE */
+  background-color: #707070;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+/* white ball */
+.Logic-slider:before {
+  position: absolute;
+  content: "";
+  height: 35px;
+  width: 35px;
+  left: -10px;
+  bottom: -5px;
+  background-color: #311b92;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+/* input check and Logic-slider background color green */
+input:checked + .Logic-slider {
+  /* YELLOW */
+  /* background-color: #fbbe08; */
+  background-color: #707070;
+}
+
+input:checked + .Logic-slider:before {
+  -webkit-transform: translateX(50px);
+  -ms-transform: translateX(50px);
+  transform: translateX(35px);
+}
+
+/*------ ADDED CSS ---------*/
+.Logic-slider:after {
+  /* content: "input"; */
+  color: white;
+  display: block;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 13px;
+  font-family: Verdana, sans-serif;
+}
+
+input:checked + .Logic-slider:after {
+  /* content: "output"; */
+  font-size: 13px;
+}
+
+/*--------- END --------*/
+
+@media (max-width: 760px) {
+  .Logic-switch {
+    width: 11.5vw;
+  }
+
+  .Logic-slider:before {
+    left: -0.8vw;
+  }
+}

@@ -1,0 +1,135 @@
+
+ .deviceContainer .imgStyleEyeL {
+  width: 10%;
+  height: 24px;
+  position: absolute;
+  top: 28%;
+  left: 25.5%;
+  z-index: 999;
+}
+
+ .deviceContainer .imgStyleEyeR {
+  width: 10%;
+  height: 24px;
+  position: absolute;
+  top: 28%;
+  left: 51%;
+  z-index: 999;
+}
+
+ .deviceContainer .imgStyleTeeth1 {
+  width: 2.7%;
+  height: 16px;
+  position: absolute;
+  top: 56%;
+  left: 33%;
+  z-index: 999;
+}
+
+ .deviceContainer .imgStyleTeeth2 {
+  width: 2.7%;
+  height: 16px;
+  position: absolute;
+  top: 58%;
+  left: 36%;
+  z-index: 999;
+}
+
+ .deviceContainer .imgStyleTeeth3 {
+  width: 2.7%;
+  height: 16px;
+  position: absolute;
+  top: 58%;
+  left: 47%;
+  z-index: 999;
+}
+
+ .deviceContainer .imgStyleTeeth4 {
+  width: 2.7%;
+  height: 16px;
+  position: absolute;
+  top: 56.6%;
+  left: 50%;
+  z-index: 999;
+}
+
+ .deviceContainer .imgStyle4in1 {
+  width: 6.5%;
+  height: 14px;
+  position: absolute;
+  top: 58.5%;
+  left: 40%;
+  z-index: 999;
+}
+
+ .deviceContainer .imgStyleMic {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: -21.5%;
+  left: 43%;
+  -webkit-transform: translate(-48%,-5%);
+  transform: translate(-48%,-5%);
+  z-index: -1;
+}
+
+ .deviceContainer .imgStyleBuzzer {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  top: -15%;
+  left: -5.5%;
+  -webkit-transform: translate(-1.5%);
+  transform: translate(-1.5%);
+  z-index: 3;
+  z-index: 999;
+}
+
+ .deviceContainer .imgStyleTouchpads1,  .deviceContainer .imgStyleTouchpads2,  .deviceContainer .imgStyleTouchpads3 {
+  height: 12%;
+  position: absolute;
+  bottom: 3%;
+  left: 15.3%;
+  -webkit-transform: translateX(-23.5%);
+  transform: translateX(-23.5%);
+  z-index: 999;
+}
+ .deviceContainer .imgStyleTouchpads1,  .deviceContainer .imgStyleTouchpads2,  .deviceContainer .imgStyleTouchpads3 {
+  height: 12%;
+  position: absolute;
+  bottom: 3%;
+  left: 15.3%;
+  -webkit-transform: translateX(-23.5%);
+  transform: translateX(-23.5%);
+  z-index: 999;
+}
+
+ .deviceContainer .imgStyleTouchpads1,  .deviceContainer .imgStyleTouchpads2,  .deviceContainer .imgStyleTouchpads3 {
+  height: 12%;
+  position: absolute;
+  bottom: 3%;
+  left: 13%;
+  -webkit-transform: translateX(-23.5%);
+  transform: translateX(-23.5%);
+  z-index: 999;
+}
+
+ .deviceContainer .imgStyleTouchpads1{
+  -webkit-transform:  translateX(-50.8%);
+  transform:  translateX(-50.8%);
+  z-index: 999;
+}
+
+ .deviceContainer .imgStyleTouchpads2 {
+  left: 27.2%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 999;
+}
+
+ .deviceContainer .imgStyleTouchpads3{
+  left: 45%;
+  -webkit-transform: translateX(-90%);
+  transform: translateX(-90%);
+  z-index: 999;
+}

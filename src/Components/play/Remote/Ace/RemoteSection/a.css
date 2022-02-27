@@ -1,0 +1,2759 @@
+/* body {
+  background-color: #fafafa;
+}
+.Main_Remote {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 12% 78% 10%;
+  grid-template-columns: 100%;
+}
+.Remote_Header {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 7% 13% 66% 7% 7%;
+  grid-template-rows: 100%;
+}
+.Back_BTN {
+  height: auto;
+  width: 4%;
+  position: absolute;
+  top: 4%;
+  left: 2%;
+  cursor: pointer;
+}
+.Play_Remote {
+  height: auto;
+  width: 10%;
+  font-size: 25px;
+  position: absolute;
+  top: 5.5%;
+  font-family: "Halcyon_SemiBold" !important;
+}
+.Help_Btn {
+  height: auto;
+  width: 4%;
+  position: absolute;
+  top: 4%;
+  right: 6%;
+}
+.Bluetooth_Button {
+  height: auto;
+  width: 6%;
+  position: absolute;
+  top: 4%;
+  right: 0.1%;
+}
+.Remote_Body {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 35% 30% 35%;
+  grid-template-rows: 100%;
+}
+.Buzzer_Lefteye {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 100%;
+}
+
+.Func_Righteye {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 100%;
+}
+.Left_Eye_Backdround {
+  height: auto;
+  width: 28%;
+  position: absolute;
+  top: 66%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+}
+
+.Left_Partition {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 80% 20%;
+  grid-template-columns: 100%;
+}
+.Right_Partition {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 80% 20%;
+  grid-template-columns: 100%;
+}
+.Buzzer_Partition {
+  height: 100%;
+  width: 100%;
+  display: grid;
+
+  grid-template-rows: 80% 20%;
+  grid-template-columns: 100%;
+}
+
+.Slider_Div1 {
+  height: 20%;
+  width: 20%;
+  display: grid;
+  position: absolute;
+  top: 56.5%;
+  left: 10%;
+
+  grid-template-rows: repeat(3, 33%);
+
+  grid-template-columns: 100%;
+}
+.Slider_Div2 {
+  height: 20%;
+  width: 20%;
+  display: grid;
+  position: absolute;
+  top: 56.5%;
+  right: 8%;
+
+  grid-template-rows: repeat(3, 33%);
+
+  grid-template-columns: 100%;
+}
+.Slider_Div3 {
+  height: 5%;
+  width: 16%;
+  display: grid;
+  position: absolute;
+  top: 32.5%;
+  left: 13%;
+}
+
+.Buzzer_Bg {
+  height: auto;
+  width: 25%;
+  position: absolute;
+  top: 36%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+}
+.Buzzer_txt {
+  height: 34px;
+  width: 64px;
+  font-size: 18px;
+  position: absolute;
+  font-family: "Halcyon_SemiBold" !important;
+  top: 35.5%;
+  left: 11%;
+  transform: translate(-50%, -50%);
+}
+.Right_Eye_Backdround {
+  height: auto;
+  width: 28%;
+  position: absolute;
+  top: 66%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+.Left_Eye_txt {
+  height: 34px;
+  width: 33px;
+  position: absolute;
+  font-family: "Halcyon_SemiBold" !important;
+  font-size: 22px;
+  top: 65%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+.Right_Eye_txt {
+  height: 34px;
+  width: 33px;
+  position: absolute;
+  font-family: "Halcyon_SemiBold" !important;
+  font-size: 22px;
+  top: 65%;
+  left: 72%;
+  transform: translate(-50%, -50%);
+}
+.Talkback_IA {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 38%;
+  left: 73%;
+  transform: translate(-50%, -50%);
+}
+.Disco_IA {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 38%;
+  left: 79.5%;
+  transform: translate(-50%, -50%);
+}
+.Gesture_IA {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 38%;
+  left: 86%;
+  transform: translate(-50%, -50%);
+}
+.Talkback_txt {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  font-family: "Halcyon_Medium" !important;
+  color: #707070;
+  top: 48.5%;
+  left: 73.5%;
+  transform: translate(-50%, -50%);
+}
+.Disco_txt {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  font-family: "Halcyon_Medium" !important;
+  color: #707070;
+  top: 48.5%;
+  left: 81%;
+  transform: translate(-50%, -50%);
+}
+.Gesture_txt {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  font-family: "Halcyon_Medium" !important;
+  color: #707070;
+  top: 48.5%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+}
+
+.PC_img {
+  height: auto;
+  width: 70.5%;
+  position: relative;
+
+  z-index: 0;
+  top: 17.9%;
+  left: 14.9%;
+}
+
+.Left_Eye_Inactive {
+  height: auto;
+  width: 1.7%;
+  position: absolute;
+  top: 41.2%;
+  left: 47.25%;
+  transform: translate(-50%, -50%);
+}
+.Right_Eye_Inactive {
+  height: auto;
+  width: 1.7%;
+  position: absolute;
+  top: 41.2%;
+  left: 51.7%;
+  transform: translate(-50%, -50%);
+}
+.Buzzer_Inactive {
+  height: auto;
+  width: 16%;
+  position: absolute;
+  top: 32%;
+  left: 49.4%;
+  transform: translate(-50%, -50%);
+}
+.Ace_Teeth1 {
+  width: 5px;
+  height: 9.5px;
+  position: absolute;
+  top: 49.4%;
+  left: 47.9%;
+  transform: translate(-50%, -50%);
+}
+.Ace_Teeth2 {
+  width: 5px;
+  height: 9.5px;
+  position: absolute;
+  top: 49.7%;
+  left: 48.5%;
+  transform: translate(-50%, -50%);
+}
+.Ace_Teeth3 {
+  width: 5px;
+  height: 9.5px;
+  position: absolute;
+  top: 49.7%;
+  left: 50.5%;
+  transform: translate(-50%, -50%);
+}
+.Ace_Teeth4 {
+  width: 5px;
+  height: 9.5px;
+  position: absolute;
+  top: 49.4%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+}
+.Ace_4Teeth {
+  width: 19px;
+  height: 12px;
+  position: absolute;
+  top: 50%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+}
+.Teeth_Bg {
+  height: auto;
+  width: 20%;
+  position: absolute;
+  top: 74%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+}
+.Teeth_Smile1 {
+  height: 48px;
+  width: 48px;
+  position: absolute;
+  top: 74%;
+  left: 43.5%;
+  transform: translate(-50%, -50%);
+}
+.Teeth_Smile2 {
+  height: 48px;
+  width: 48px;
+  position: absolute;
+  top: 74%;
+  left: 47.7%;
+  transform: translate(-50%, -50%);
+}
+.Teeth_Smile3 {
+  height: 48px;
+  width: 48px;
+  position: absolute;
+  top: 74%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+}
+.Teeth_Smile4 {
+  height: 48px;
+  width: 48px;
+  position: absolute;
+  top: 74%;
+  left: 56%;
+  transform: translate(-50%, -50%);
+}
+
+.Rem_Slider {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0%;
+  z-index: 100000;
+  background: #fff;
+}
+.Cros {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  height: 10%;
+  width: 5%;
+  z-index: 100000;
+}
+
+@media only screen and (max-device-width: 1440px) {
+  .Left_Eye_Inactive {
+    width: 1.7%;
+
+    top: 37.8%;
+    left: 47.3%;
+  }
+  .Right_Eye_Inactive {
+    width: 1.7%;
+
+    top: 37.9%;
+    left: 51.69%;
+  }
+  .Ace_Teeth1 {
+    width: 5.5px;
+    height: 9px;
+
+    top: 44.5%;
+    left: 47.9%;
+  }
+  .Ace_Teeth2 {
+    width: 5.5px;
+    height: 9px;
+
+    top: 44.9%;
+    left: 48.5%;
+  }
+  .Ace_Teeth3 {
+    width: 5.5px;
+    height: 9px;
+
+    top: 44.9%;
+    left: 50.5%;
+  }
+  .Ace_Teeth4 {
+    width: 5.5px;
+    height: 9px;
+
+    top: 44.5%;
+    left: 51%;
+  }
+  .Ace_4Teeth {
+    width: 19px;
+    height: 11px;
+
+    top: 45%;
+    left: 49.5%;
+  }
+}
+@media only screen and (max-device-width: 1280px) {
+  .Left_Eye_Inactive {
+    top: 36.8%;
+  }
+  .Right_Eye_Inactive {
+    top: 36.9%;
+  }
+  .Ace_Teeth1 {
+    top: 42.5%;
+  }
+  .Ace_Teeth2 {
+    top: 42.9%;
+  }
+  .Ace_Teeth3 {
+    top: 42.9%;
+  }
+  .Ace_Teeth4 {
+    top: 42.5%;
+  }
+  .Ace_4Teeth {
+    top: 43%;
+  }
+}
+@media only screen and (max-device-width: 1500px) and (min-device-width: 1454px) {
+  .Left_Eye_Inactive {
+    top: 38.2%;
+  }
+  .Right_Eye_Inactive {
+    top: 38.2%;
+  }
+  .Ace_Teeth1 {
+    top: 44.5%;
+  }
+  .Ace_Teeth2 {
+    top: 44.8%;
+  }
+  .Ace_Teeth3 {
+    top: 44.8%;
+  }
+  .Ace_Teeth4 {
+    top: 44.5%;
+  }
+  .Ace_4Teeth {
+    top: 45%;
+  }
+}
+@media only screen and (max-device-width: 1526px) and (min-device-width: 1501px) {
+  .Left_Eye_Inactive {
+    top: 38.2%;
+  }
+  .Right_Eye_Inactive {
+    top: 38.2%;
+  }
+  .Ace_Teeth1 {
+    top: 45.2%;
+  }
+  .Ace_Teeth2 {
+    top: 45.5%;
+  }
+  .Ace_Teeth3 {
+    top: 45.5%;
+  }
+  .Ace_Teeth4 {
+    top: 45.2%;
+  }
+  .Ace_4Teeth {
+    top: 45.5%;
+  }
+}
+
+@media only screen and (max-device-width: 1570px) and (min-device-width: 1550px) {
+  .Left_Eye_Inactive {
+    top: 39.2%;
+  }
+  .Right_Eye_Inactive {
+    top: 39.2%;
+  }
+  .PC_img {
+    height: auto;
+    width: 70.5%;
+    position: relative;
+
+    z-index: 0;
+    top: 18.9%;
+    left: 14.9%;
+  }
+  .Ace_Teeth1 {
+    top: 46.4%;
+  }
+  .Ace_Teeth2 {
+    top: 46.7%;
+  }
+  .Ace_Teeth3 {
+    top: 46.7%;
+  }
+  .Ace_Teeth4 {
+    top: 46.4%;
+  }
+  .Ace_4Teeth {
+    top: 47%;
+  }
+}
+@media only screen and (max-device-width: 1600px) and (min-device-width: 1571px) {
+  .Left_Eye_Inactive {
+    top: 39.2%;
+  }
+  .Right_Eye_Inactive {
+    top: 39.2%;
+  }
+  .PC_img {
+    height: auto;
+    width: 70.5%;
+    position: relative;
+
+    z-index: 0;
+    top: 18.2%;
+    left: 14.9%;
+  }
+  .Ace_Teeth1 {
+    top: 46.4%;
+  }
+  .Ace_Teeth2 {
+    top: 46.7%;
+  }
+  .Ace_Teeth3 {
+    top: 46.7%;
+  }
+  .Ace_Teeth4 {
+    top: 46.4%;
+  }
+  .Ace_4Teeth {
+    top: 47%;
+  }
+}
+@media only screen and (max-device-width: 1636px) and (min-device-width: 1601px) {
+  .Left_Eye_Inactive {
+    top: 39.2%;
+  }
+  .Right_Eye_Inactive {
+    top: 39.2%;
+  }
+  .PC_img {
+    height: auto;
+    width: 70.5%;
+    position: relative;
+
+    z-index: 0;
+    top: 17.9%;
+    left: 14.9%;
+  }
+  .Ace_Teeth1 {
+    top: 46.4%;
+  }
+  .Ace_Teeth2 {
+    top: 46.7%;
+  }
+  .Ace_Teeth3 {
+    top: 46.7%;
+  }
+  .Ace_Teeth4 {
+    top: 46.4%;
+  }
+  .Ace_4Teeth {
+    top: 47%;
+  }
+}
+@media only screen and (max-device-width: 1649px) and (min-device-width: 1637px) {
+  .Left_Eye_Inactive {
+    top: 39.5%;
+  }
+  .Right_Eye_Inactive {
+    top: 39.5%;
+  }
+  .PC_img {
+    height: auto;
+    width: 70.5%;
+    position: relative;
+
+    z-index: 0;
+    top: 17.9%;
+    left: 14.9%;
+  }
+  .Ace_Teeth1 {
+    top: 46.9%;
+  }
+  .Ace_Teeth2 {
+    top: 47.2%;
+  }
+  .Ace_Teeth3 {
+    top: 47.2%;
+  }
+  .Ace_Teeth4 {
+    top: 46.9%;
+  }
+  .Ace_4Teeth {
+    top: 47.5%;
+  }
+}
+@media only screen and (max-device-width: 1678px) and (min-device-width: 1650px) {
+  .Left_Eye_Inactive {
+    top: 39.6%;
+  }
+  .Right_Eye_Inactive {
+    top: 39.6%;
+  }
+  .PC_img {
+    height: auto;
+    width: 70.5%;
+    position: relative;
+
+    z-index: 0;
+    top: 17.9%;
+    left: 14.9%;
+  }
+  .Ace_Teeth1 {
+    width: 7px;
+    height: 10.5px;
+    top: 47.3%;
+  }
+  .Ace_Teeth2 {
+    width: 7px;
+    height: 10.5px;
+    top: 47.6%;
+  }
+  .Ace_Teeth3 {
+    width: 7px;
+    height: 10.5px;
+    top: 47.6%;
+  }
+  .Ace_Teeth4 {
+    width: 7px;
+    height: 10.5px;
+    top: 47.3%;
+  }
+  .Ace_4Teeth {
+    width: 21px;
+    height: 13.5px;
+    top: 47.8%;
+  }
+}
+@media only screen and (max-device-width: 1700px) and (min-device-width: 1679px) {
+  .Left_Eye_Inactive {
+    top: 39.6%;
+  }
+  .Right_Eye_Inactive {
+    top: 39.6%;
+  }
+  .Ace_Teeth1 {
+    width: 7px;
+    height: 10.5px;
+    top: 47.5%;
+  }
+  .Ace_Teeth2 {
+    width: 7px;
+    height: 10.5px;
+    top: 47.9%;
+  }
+  .Ace_Teeth3 {
+    width: 7px;
+    height: 10.5px;
+    top: 47.9%;
+  }
+  .Ace_Teeth4 {
+    width: 7px;
+    height: 10.5px;
+    top: 47.5%;
+  }
+  .Ace_4Teeth {
+    width: 21px;
+    height: 13px;
+    top: 48%;
+  }
+}
+@media only screen and (max-device-width: 1720px) and (min-device-width: 1701px) {
+  .Left_Eye_Inactive {
+    top: 39.6%;
+  }
+  .Right_Eye_Inactive {
+    top: 39.6%;
+  }
+  .PC_img {
+    top: 17.4%;
+  }
+  .Ace_Teeth1 {
+    width: 7px;
+    height: 10.5px;
+    top: 47.3%;
+  }
+  .Ace_Teeth2 {
+    width: 7px;
+    height: 10.5px;
+    top: 47.8%;
+  }
+  .Ace_Teeth3 {
+    width: 7px;
+    height: 10.5px;
+    top: 47.8%;
+  }
+  .Ace_Teeth4 {
+    width: 7px;
+    height: 10.5px;
+    top: 47.3%;
+  }
+  .Ace_4Teeth {
+    width: 21px;
+    height: 13px;
+    top: 47.9%;
+  }
+}
+@media only screen and (max-device-width: 1750px) and (min-device-width: 1721px) {
+  .Left_Eye_Inactive {
+    top: 40.2%;
+  }
+  .Right_Eye_Inactive {
+    top: 40.2%;
+  }
+  .Ace_Teeth1 {
+    width: 7px;
+    height: 10.5px;
+    top: 48%;
+  }
+  .Ace_Teeth2 {
+    width: 7px;
+    height: 10.5px;
+    top: 48.4%;
+  }
+  .Ace_Teeth3 {
+    width: 7px;
+    height: 10.5px;
+    top: 48.4%;
+  }
+  .Ace_Teeth4 {
+    width: 7px;
+    height: 10.5px;
+    top: 48%;
+  }
+  .Ace_4Teeth {
+    width: 21px;
+    height: 13px;
+    top: 48.5%;
+  }
+}
+@media only screen and (max-device-width: 1790px) and (min-device-width: 1751px) {
+  .Left_Eye_Inactive {
+    top: 41%;
+  }
+  .Right_Eye_Inactive {
+    top: 41%;
+  }
+  .PC_img {
+    top: 18.6%;
+  }
+  .Ace_Teeth1 {
+    width: 7px;
+    height: 10.5px;
+    top: 49%;
+  }
+  .Ace_Teeth2 {
+    width: 7px;
+    height: 10.5px;
+    top: 49.4%;
+  }
+  .Ace_Teeth3 {
+    width: 7px;
+    height: 10.5px;
+    top: 49.4%;
+  }
+  .Ace_Teeth4 {
+    width: 7px;
+    height: 10.5px;
+    top: 49%;
+  }
+  .Ace_4Teeth {
+    width: 21px;
+    height: 13px;
+    top: 49.5%;
+  }
+}
+@media only screen and (max-device-width: 1825px) and (min-device-width: 1791px) {
+  .Left_Eye_Inactive {
+    top: 41%;
+  }
+  .Right_Eye_Inactive {
+    top: 41%;
+  }
+  .PC_img {
+    top: 18.6%;
+  }
+  .Ace_Teeth1 {
+    width: 7px;
+    height: 10.5px;
+    top: 49.5%;
+  }
+  .Ace_Teeth2 {
+    width: 7px;
+    height: 10.5px;
+    top: 49.9%;
+  }
+  .Ace_Teeth3 {
+    width: 7px;
+    height: 10.5px;
+    top: 49.9%;
+  }
+  .Ace_Teeth4 {
+    width: 7px;
+    height: 10.5px;
+    top: 49.5%;
+  }
+  .Ace_4Teeth {
+    width: 21px;
+    height: 13px;
+    top: 50%;
+  }
+}
+@media only screen and (max-device-width: 1024px) {
+  .Back_BTN {
+    height: auto;
+    width: 5%;
+    top: 4%;
+    left: 2%;
+  }
+  .Play_Remote {
+    font-size: 23px;
+    height: auto;
+    width: 10%;
+    top: 5.5%;
+    left: 8%;
+  }
+  .Help_Btn {
+    height: auto;
+    width: 5%;
+    right: 7.5%;
+  }
+  .Bluetooth_Button {
+    width: 7.3%;
+  }
+  .Left_Eye_Backdround {
+    height: 200px;
+    width: 330px;
+
+    top: 64%;
+  }
+  .Buzzer_Bg {
+    height: 130px;
+    width: 310px;
+  }
+
+  .Buzzer_txt {
+    font-size: 17px;
+  }
+  .Right_Eye_Backdround {
+    height: 200px;
+    width: 330px;
+
+    top: 64%;
+  }
+  .Slider_Div1 {
+    top: 53.5%;
+  }
+  .Slider_Div2 {
+    top: 53.5%;
+  }
+  .Slider_Div3 {
+    left: 14%;
+  }
+  .Left_Eye_txt {
+    font-size: 18px;
+    top: 63%;
+    left: 9.5%;
+  }
+  .Right_Eye_txt {
+    font-size: 18px;
+    top: 63%;
+    left: 71.5%;
+  }
+  .Talkback_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 72.5%;
+  }
+  .Disco_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 80.5%;
+  }
+  .Gesture_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 88.5%;
+  }
+  .Talkback_txt {
+    left: 73%;
+  }
+  .Disco_txt {
+    left: 82.5%;
+  }
+  .Gesture_txt {
+    left: 90%;
+  }
+
+  .PC_img {
+    width: 81%;
+
+    top: 22%;
+    left: 9.5%;
+  }
+
+  .Left_Eye_Inactive {
+    width: 1.9%;
+
+    top: 38.8%;
+    left: 46.8%;
+  }
+  .Right_Eye_Inactive {
+    width: 1.9%;
+
+    top: 38.8%;
+    left: 51.85%;
+  }
+  .Buzzer_Inactive {
+    height: auto;
+    width: 18%;
+
+    top: 32%;
+  }
+  .Ace_Teeth1 {
+    width: 4px;
+    height: 8.1px;
+
+    top: 44.2%;
+    left: 47.6%;
+  }
+  .Ace_Teeth2 {
+    width: 4px;
+    height: 8px;
+
+    top: 44.5%;
+    left: 48.2%;
+  }
+  .Ace_Teeth3 {
+    width: 4px;
+    height: 8px;
+
+    top: 44.5%;
+    left: 50.5%;
+  }
+  .Ace_Teeth4 {
+    width: 4px;
+    height: 8.1px;
+
+    top: 44.2%;
+    left: 51.1%;
+  }
+  .Ace_4Teeth {
+    width: 15px;
+    height: 9px;
+
+    top: 44.5%;
+    left: 49.35%;
+  }
+  .Teeth_Bg {
+    height: auto;
+    width: 24%;
+
+    top: 70%;
+    left: 49.5%;
+  }
+  .Teeth_Smile1 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 42.5%;
+  }
+  .Teeth_Smile2 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 47.3%;
+  }
+  .Teeth_Smile3 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 52.2%;
+  }
+  .Teeth_Smile4 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 57%;
+  }
+}
+
+@media only screen and (max-device-width: 1033px) and (min-device-width: 1025px) {
+  .Back_BTN {
+    height: auto;
+    width: 5%;
+    top: 4%;
+    left: 2%;
+  }
+  .Play_Remote {
+    font-size: 23px;
+    height: auto;
+    width: 10%;
+    top: 5.5%;
+    left: 8%;
+  }
+  .Help_Btn {
+    height: auto;
+    width: 5%;
+    right: 7.5%;
+  }
+  .Bluetooth_Button {
+    width: 7.3%;
+  }
+  .Left_Eye_Backdround {
+    height: 200px;
+    width: 330px;
+
+    top: 64%;
+  }
+  .Buzzer_Bg {
+    height: 130px;
+    width: 310px;
+  }
+
+  .Buzzer_txt {
+    font-size: 17px;
+  }
+  .Right_Eye_Backdround {
+    height: 200px;
+    width: 330px;
+
+    top: 64%;
+  }
+  .Slider_Div1 {
+    top: 53.5%;
+  }
+  .Slider_Div2 {
+    top: 53.5%;
+  }
+  .Slider_Div3 {
+    left: 14%;
+  }
+  .Left_Eye_txt {
+    font-size: 18px;
+    top: 63%;
+    left: 9.5%;
+  }
+  .Right_Eye_txt {
+    font-size: 18px;
+    top: 63%;
+    left: 71.5%;
+  }
+  .Talkback_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 72.5%;
+  }
+  .Disco_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 80.5%;
+  }
+  .Gesture_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 88.5%;
+  }
+  .Talkback_txt {
+    left: 73%;
+  }
+  .Disco_txt {
+    left: 82.5%;
+  }
+  .Gesture_txt {
+    left: 90%;
+  }
+
+  .PC_img {
+    width: 81%;
+
+    top: 21.5%;
+    left: 9.5%;
+  }
+
+  .Left_Eye_Inactive {
+    width: 1.9%;
+
+    top: 38.2%;
+    left: 46.8%;
+  }
+  .Right_Eye_Inactive {
+    width: 1.9%;
+
+    top: 38.2%;
+    left: 51.85%;
+  }
+  .Buzzer_Inactive {
+    height: auto;
+    width: 18%;
+
+    top: 32%;
+  }
+  .Ace_Teeth1 {
+    width: 4px;
+    height: 8.1px;
+
+    top: 43.7%;
+    left: 47.6%;
+  }
+  .Ace_Teeth2 {
+    width: 4px;
+    height: 8px;
+
+    top: 43.9%;
+    left: 48.2%;
+  }
+  .Ace_Teeth3 {
+    width: 4px;
+    height: 8px;
+
+    top: 43.9%;
+    left: 50.5%;
+  }
+  .Ace_Teeth4 {
+    width: 4px;
+    height: 8.1px;
+
+    top: 43.7%;
+    left: 51.1%;
+  }
+  .Ace_4Teeth {
+    width: 15px;
+    height: 9px;
+
+    top: 44%;
+    left: 49.35%;
+  }
+  .Teeth_Bg {
+    height: auto;
+    width: 24%;
+
+    top: 70%;
+    left: 49.5%;
+  }
+  .Teeth_Smile1 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 42.5%;
+  }
+  .Teeth_Smile2 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 47.3%;
+  }
+  .Teeth_Smile3 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 52.2%;
+  }
+  .Teeth_Smile4 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 57%;
+  }
+}
+@media only screen and (max-device-width: 1075px) and (min-device-width: 1034px) {
+  .Back_BTN {
+    height: auto;
+    width: 5%;
+    top: 4%;
+    left: 2%;
+  }
+  .Play_Remote {
+    font-size: 23px;
+    height: auto;
+    width: 10%;
+    top: 5.5%;
+    left: 8%;
+  }
+  .Help_Btn {
+    height: auto;
+    width: 5%;
+    right: 7.5%;
+  }
+  .Bluetooth_Button {
+    width: 7.3%;
+  }
+  .Left_Eye_Backdround {
+    height: 200px;
+    width: 330px;
+
+    top: 64%;
+  }
+  .Buzzer_Bg {
+    height: 130px;
+    width: 310px;
+  }
+
+  .Buzzer_txt {
+    font-size: 17px;
+  }
+  .Right_Eye_Backdround {
+    height: 200px;
+    width: 330px;
+
+    top: 64%;
+  }
+  .Slider_Div1 {
+    top: 53.5%;
+  }
+  .Slider_Div2 {
+    top: 53.5%;
+  }
+  .Slider_Div3 {
+    left: 14%;
+  }
+  .Left_Eye_txt {
+    font-size: 18px;
+    top: 63%;
+    left: 9.5%;
+  }
+  .Right_Eye_txt {
+    font-size: 18px;
+    top: 63%;
+    left: 71.5%;
+  }
+  .Talkback_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 72.5%;
+  }
+  .Disco_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 80.5%;
+  }
+  .Gesture_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 88.5%;
+  }
+  .Talkback_txt {
+    left: 73%;
+  }
+  .Disco_txt {
+    left: 82.5%;
+  }
+  .Gesture_txt {
+    left: 90%;
+  }
+
+  .PC_img {
+    width: 81%;
+
+    top: 21%;
+    left: 9.5%;
+  }
+
+  .Left_Eye_Inactive {
+    width: 1.9%;
+
+    top: 38.2%;
+    left: 46.8%;
+  }
+  .Right_Eye_Inactive {
+    width: 1.9%;
+
+    top: 38.2%;
+    left: 51.85%;
+  }
+  .Buzzer_Inactive {
+    height: auto;
+    width: 18%;
+
+    top: 32%;
+  }
+  .Ace_Teeth1 {
+    width: 4px;
+    height: 8.1px;
+
+    top: 43.7%;
+    left: 47.6%;
+  }
+  .Ace_Teeth2 {
+    width: 4px;
+    height: 8px;
+
+    top: 43.9%;
+    left: 48.2%;
+  }
+  .Ace_Teeth3 {
+    width: 4px;
+    height: 8px;
+
+    top: 43.9%;
+    left: 50.5%;
+  }
+  .Ace_Teeth4 {
+    width: 4px;
+    height: 8.1px;
+
+    top: 43.7%;
+    left: 51.1%;
+  }
+  .Ace_4Teeth {
+    width: 15px;
+    height: 9px;
+
+    top: 44%;
+    left: 49.35%;
+  }
+  .Teeth_Bg {
+    height: auto;
+    width: 24%;
+
+    top: 70%;
+    left: 49.5%;
+  }
+  .Teeth_Smile1 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 42.5%;
+  }
+  .Teeth_Smile2 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 47.3%;
+  }
+  .Teeth_Smile3 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 52.2%;
+  }
+  .Teeth_Smile4 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 57%;
+  }
+}
+@media only screen and (max-device-width: 1105px) and (min-device-width: 1075px) {
+  .Back_BTN {
+    height: auto;
+    width: 5%;
+    top: 4%;
+    left: 2%;
+  }
+  .Play_Remote {
+    font-size: 23px;
+    height: auto;
+    width: 10%;
+    top: 5.5%;
+    left: 8%;
+  }
+  .Help_Btn {
+    height: auto;
+    width: 5%;
+    right: 7.5%;
+  }
+  .Bluetooth_Button {
+    width: 7.3%;
+  }
+  .Left_Eye_Backdround {
+    height: 200px;
+    width: 330px;
+
+    top: 64%;
+  }
+  .Buzzer_Bg {
+    height: 130px;
+    width: 310px;
+  }
+
+  .Buzzer_txt {
+    font-size: 17px;
+  }
+  .Right_Eye_Backdround {
+    height: 200px;
+    width: 330px;
+
+    top: 64%;
+  }
+  .Slider_Div1 {
+    top: 53.5%;
+  }
+  .Slider_Div2 {
+    top: 53.5%;
+  }
+  .Slider_Div3 {
+    left: 14%;
+  }
+  .Left_Eye_txt {
+    font-size: 18px;
+    top: 63%;
+    left: 9.5%;
+  }
+  .Right_Eye_txt {
+    font-size: 18px;
+    top: 63%;
+    left: 71.5%;
+  }
+  .Talkback_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 72.5%;
+  }
+  .Disco_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 80.5%;
+  }
+  .Gesture_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 88.5%;
+  }
+  .Talkback_txt {
+    left: 73%;
+  }
+  .Disco_txt {
+    left: 82.5%;
+  }
+  .Gesture_txt {
+    left: 90%;
+  }
+
+  .PC_img {
+    width: 81%;
+
+    top: 20.2%;
+    left: 9.5%;
+  }
+
+  .Left_Eye_Inactive {
+    width: 1.9%;
+
+    top: 38.2%;
+    left: 46.8%;
+  }
+  .Right_Eye_Inactive {
+    width: 1.9%;
+
+    top: 38.2%;
+    left: 51.85%;
+  }
+  .Buzzer_Inactive {
+    height: auto;
+    width: 18%;
+
+    top: 32%;
+  }
+  .Ace_Teeth1 {
+    width: 4px;
+    height: 8.1px;
+
+    top: 43.7%;
+    left: 47.6%;
+  }
+  .Ace_Teeth2 {
+    width: 4px;
+    height: 8px;
+
+    top: 43.9%;
+    left: 48.2%;
+  }
+  .Ace_Teeth3 {
+    width: 4px;
+    height: 8px;
+
+    top: 43.9%;
+    left: 50.5%;
+  }
+  .Ace_Teeth4 {
+    width: 4px;
+    height: 8.1px;
+
+    top: 43.7%;
+    left: 51.1%;
+  }
+  .Ace_4Teeth {
+    width: 15px;
+    height: 9px;
+
+    top: 44%;
+    left: 49.35%;
+  }
+  .Teeth_Bg {
+    height: auto;
+    width: 24%;
+
+    top: 70%;
+    left: 49.5%;
+  }
+  .Teeth_Smile1 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 42.5%;
+  }
+  .Teeth_Smile2 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 47.3%;
+  }
+  .Teeth_Smile3 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 52.2%;
+  }
+  .Teeth_Smile4 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 57%;
+  }
+}
+
+@media only screen and (max-device-width: 1130px) and (min-device-width: 1105px) {
+  .Back_BTN {
+    height: auto;
+    width: 5%;
+    top: 4%;
+    left: 2%;
+  }
+  .Play_Remote {
+    font-size: 23px;
+    height: auto;
+    width: 10%;
+    top: 5.5%;
+    left: 8%;
+  }
+  .Help_Btn {
+    height: auto;
+    width: 5%;
+    right: 7.5%;
+  }
+  .Bluetooth_Button {
+    width: 7.3%;
+  }
+  .Left_Eye_Backdround {
+    height: 200px;
+    width: 330px;
+
+    top: 64%;
+  }
+  .Buzzer_Bg {
+    height: 130px;
+    width: 310px;
+  }
+
+  .Buzzer_txt {
+    font-size: 17px;
+  }
+  .Right_Eye_Backdround {
+    height: 200px;
+    width: 330px;
+
+    top: 64%;
+  }
+  .Slider_Div1 {
+    top: 53.5%;
+  }
+  .Slider_Div2 {
+    top: 53.5%;
+  }
+  .Slider_Div3 {
+    left: 14%;
+  }
+  .Left_Eye_txt {
+    font-size: 18px;
+    top: 63%;
+    left: 9.5%;
+  }
+  .Right_Eye_txt {
+    font-size: 18px;
+    top: 63%;
+    left: 71.5%;
+  }
+  .Talkback_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 72.5%;
+  }
+  .Disco_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 80.5%;
+  }
+  .Gesture_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 88.5%;
+  }
+  .Talkback_txt {
+    left: 73%;
+  }
+  .Disco_txt {
+    left: 82.5%;
+  }
+  .Gesture_txt {
+    left: 90%;
+  }
+
+  .PC_img {
+    width: 81%;
+
+    top: 21.2%;
+    left: 9.5%;
+  }
+
+  .Left_Eye_Inactive {
+    width: 1.9%;
+
+    top: 39%;
+    left: 46.8%;
+  }
+  .Right_Eye_Inactive {
+    width: 1.9%;
+
+    top: 39%;
+    left: 51.85%;
+  }
+  .Buzzer_Inactive {
+    height: auto;
+    width: 18%;
+
+    top: 32%;
+  }
+  .Ace_Teeth1 {
+    width: 5px;
+    height: 9.1px;
+
+    top: 44.8%;
+    left: 47.6%;
+  }
+  .Ace_Teeth2 {
+    width: 5px;
+    height: 9px;
+
+    top: 45%;
+    left: 48.2%;
+  }
+  .Ace_Teeth3 {
+    width: 5px;
+    height: 9px;
+
+    top: 45%;
+    left: 50.5%;
+  }
+  .Ace_Teeth4 {
+    width: 5px;
+    height: 9.1px;
+
+    top: 44.8%;
+    left: 51.1%;
+  }
+  .Ace_4Teeth {
+    width: 17px;
+    height: 11px;
+
+    top: 45.2%;
+    left: 49.35%;
+  }
+  .Teeth_Bg {
+    height: auto;
+    width: 24%;
+
+    top: 70%;
+    left: 49.5%;
+  }
+  .Teeth_Smile1 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 42.5%;
+  }
+  .Teeth_Smile2 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 47.3%;
+  }
+  .Teeth_Smile3 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 52.2%;
+  }
+  .Teeth_Smile4 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 57%;
+  }
+}
+
+@media only screen and (max-device-width: 1157px) and (min-device-width: 1131px) {
+  .Back_BTN {
+    height: auto;
+    width: 5%;
+    top: 4%;
+    left: 2%;
+  }
+  .Play_Remote {
+    font-size: 23px;
+    height: auto;
+    width: 10%;
+    top: 5.5%;
+    left: 8%;
+  }
+  .Help_Btn {
+    height: auto;
+    width: 5%;
+    right: 7.5%;
+  }
+  .Bluetooth_Button {
+    width: 7.3%;
+  }
+  .Left_Eye_Backdround {
+    height: 200px;
+    width: 330px;
+
+    top: 64%;
+  }
+  .Buzzer_Bg {
+    height: 130px;
+    width: 310px;
+  }
+
+  .Buzzer_txt {
+    font-size: 17px;
+  }
+  .Right_Eye_Backdround {
+    height: 200px;
+    width: 330px;
+
+    top: 64%;
+  }
+  .Slider_Div1 {
+    top: 53.5%;
+  }
+  .Slider_Div2 {
+    top: 53.5%;
+  }
+  .Slider_Div3 {
+    left: 14%;
+  }
+  .Left_Eye_txt {
+    font-size: 18px;
+    top: 63%;
+    left: 9.5%;
+  }
+  .Right_Eye_txt {
+    font-size: 18px;
+    top: 63%;
+    left: 71.5%;
+  }
+  .Talkback_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 72.5%;
+  }
+  .Disco_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 80.5%;
+  }
+  .Gesture_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 88.5%;
+  }
+  .Talkback_txt {
+    left: 73%;
+  }
+  .Disco_txt {
+    left: 82.5%;
+  }
+  .Gesture_txt {
+    left: 90%;
+  }
+
+  .PC_img {
+    width: 81%;
+
+    top: 20.7%;
+    left: 9.5%;
+  }
+
+  .Left_Eye_Inactive {
+    width: 1.9%;
+
+    top: 39%;
+    left: 46.8%;
+  }
+  .Right_Eye_Inactive {
+    width: 1.9%;
+
+    top: 39%;
+    left: 51.85%;
+  }
+  .Buzzer_Inactive {
+    height: auto;
+    width: 18%;
+
+    top: 32%;
+  }
+  .Ace_Teeth1 {
+    width: 5px;
+    height: 9.1px;
+
+    top: 44.8%;
+    left: 47.6%;
+  }
+  .Ace_Teeth2 {
+    width: 5px;
+    height: 9px;
+
+    top: 45%;
+    left: 48.2%;
+  }
+  .Ace_Teeth3 {
+    width: 5px;
+    height: 9px;
+
+    top: 45%;
+    left: 50.5%;
+  }
+  .Ace_Teeth4 {
+    width: 5px;
+    height: 9.1px;
+
+    top: 44.8%;
+    left: 51.1%;
+  }
+  .Ace_4Teeth {
+    width: 17px;
+    height: 11px;
+
+    top: 45.2%;
+    left: 49.35%;
+  }
+  .Teeth_Bg {
+    height: auto;
+    width: 24%;
+
+    top: 70%;
+    left: 49.5%;
+  }
+  .Teeth_Smile1 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 42.5%;
+  }
+  .Teeth_Smile2 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 47.3%;
+  }
+  .Teeth_Smile3 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 52.2%;
+  }
+  .Teeth_Smile4 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 57%;
+  }
+}
+@media only screen and (max-device-width: 1179px) and (min-device-width: 1158px) {
+  .Back_BTN {
+    height: auto;
+    width: 5%;
+    top: 4%;
+    left: 2%;
+  }
+  .Play_Remote {
+    font-size: 23px;
+    height: auto;
+    width: 10%;
+    top: 5.5%;
+    left: 8%;
+  }
+  .Help_Btn {
+    height: auto;
+    width: 5%;
+    right: 7.5%;
+  }
+  .Bluetooth_Button {
+    width: 7.3%;
+  }
+  .Left_Eye_Backdround {
+    height: 200px;
+    width: 330px;
+
+    top: 64%;
+  }
+  .Buzzer_Bg {
+    height: 130px;
+    width: 310px;
+  }
+
+  .Buzzer_txt {
+    font-size: 17px;
+  }
+  .Right_Eye_Backdround {
+    height: 200px;
+    width: 330px;
+
+    top: 64%;
+  }
+  .Slider_Div1 {
+    top: 53.5%;
+  }
+  .Slider_Div2 {
+    top: 53.5%;
+  }
+  .Slider_Div3 {
+    left: 14%;
+  }
+  .Left_Eye_txt {
+    font-size: 18px;
+    top: 63%;
+    left: 9.5%;
+  }
+  .Right_Eye_txt {
+    font-size: 18px;
+    top: 63%;
+    left: 71.5%;
+  }
+  .Talkback_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 72.5%;
+  }
+  .Disco_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 80.5%;
+  }
+  .Gesture_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 88.5%;
+  }
+  .Talkback_txt {
+    left: 73%;
+  }
+  .Disco_txt {
+    left: 82.5%;
+  }
+  .Gesture_txt {
+    left: 90%;
+  }
+
+  .PC_img {
+    width: 81%;
+
+    top: 20.2%;
+    left: 9.5%;
+  }
+
+  .Left_Eye_Inactive {
+    width: 1.9%;
+
+    top: 39%;
+    left: 46.8%;
+  }
+  .Right_Eye_Inactive {
+    width: 1.9%;
+
+    top: 39%;
+    left: 51.85%;
+  }
+  .Buzzer_Inactive {
+    height: auto;
+    width: 18%;
+
+    top: 32%;
+  }
+  .Ace_Teeth1 {
+    width: 5px;
+    height: 9.1px;
+
+    top: 44.8%;
+    left: 47.6%;
+  }
+  .Ace_Teeth2 {
+    width: 5px;
+    height: 9px;
+
+    top: 45%;
+    left: 48.2%;
+  }
+  .Ace_Teeth3 {
+    width: 5px;
+    height: 9px;
+
+    top: 45%;
+    left: 50.5%;
+  }
+  .Ace_Teeth4 {
+    width: 5px;
+    height: 9.1px;
+
+    top: 44.8%;
+    left: 51.1%;
+  }
+  .Ace_4Teeth {
+    width: 17px;
+    height: 11px;
+
+    top: 45.2%;
+    left: 49.35%;
+  }
+  .Teeth_Bg {
+    height: auto;
+    width: 24%;
+
+    top: 70%;
+    left: 49.5%;
+  }
+  .Teeth_Smile1 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 42.5%;
+  }
+  .Teeth_Smile2 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 47.3%;
+  }
+  .Teeth_Smile3 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 52.2%;
+  }
+  .Teeth_Smile4 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 57%;
+  }
+}
+@media only screen and (max-device-width: 1205px) and (min-device-width: 1180px) {
+  .Back_BTN {
+    height: auto;
+    width: 5%;
+    top: 4%;
+    left: 2%;
+  }
+  .Play_Remote {
+    font-size: 23px;
+    height: auto;
+    width: 10%;
+    top: 5.5%;
+    left: 8%;
+  }
+  .Help_Btn {
+    height: auto;
+    width: 5%;
+    right: 7.5%;
+  }
+  .Bluetooth_Button {
+    width: 7.3%;
+  }
+  .Left_Eye_Backdround {
+    height: 200px;
+    width: 330px;
+
+    top: 64%;
+  }
+  .Buzzer_Bg {
+    height: 130px;
+    width: 310px;
+  }
+
+  .Buzzer_txt {
+    font-size: 17px;
+  }
+  .Right_Eye_Backdround {
+    height: 200px;
+    width: 330px;
+
+    top: 64%;
+  }
+  .Slider_Div1 {
+    top: 53.5%;
+  }
+  .Slider_Div2 {
+    top: 53.5%;
+  }
+  .Slider_Div3 {
+    left: 14%;
+  }
+  .Left_Eye_txt {
+    font-size: 18px;
+    top: 63%;
+    left: 9.5%;
+  }
+  .Right_Eye_txt {
+    font-size: 18px;
+    top: 63%;
+    left: 71.5%;
+  }
+  .Talkback_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 72.5%;
+  }
+  .Disco_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 80.5%;
+  }
+  .Gesture_IA {
+    height: 70px;
+    width: 70px;
+
+    top: 38%;
+    left: 88.5%;
+  }
+  .Talkback_txt {
+    left: 73%;
+  }
+  .Disco_txt {
+    left: 82.5%;
+  }
+  .Gesture_txt {
+    left: 90%;
+  }
+
+  .PC_img {
+    width: 81%;
+
+    top: 20.2%;
+    left: 9.5%;
+  }
+
+  .Left_Eye_Inactive {
+    width: 1.9%;
+
+    top: 39.2%;
+    left: 46.8%;
+  }
+  .Right_Eye_Inactive {
+    width: 1.9%;
+
+    top: 39.2%;
+    left: 51.85%;
+  }
+  .Buzzer_Inactive {
+    height: auto;
+    width: 18%;
+
+    top: 32%;
+  }
+  .Ace_Teeth1 {
+    width: 5px;
+    height: 9.1px;
+
+    top: 45.2%;
+    left: 47.6%;
+  }
+  .Ace_Teeth2 {
+    width: 5px;
+    height: 9px;
+
+    top: 45.4%;
+    left: 48.2%;
+  }
+  .Ace_Teeth3 {
+    width: 5px;
+    height: 9px;
+
+    top: 45.4%;
+    left: 50.5%;
+  }
+  .Ace_Teeth4 {
+    width: 5px;
+    height: 9.1px;
+
+    top: 45.2%;
+    left: 51.1%;
+  }
+  .Ace_4Teeth {
+    width: 17px;
+    height: 11px;
+
+    top: 45.5%;
+    left: 49.35%;
+  }
+  .Teeth_Bg {
+    height: auto;
+    width: 24%;
+
+    top: 70%;
+    left: 49.5%;
+  }
+  .Teeth_Smile1 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 42.5%;
+  }
+  .Teeth_Smile2 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 47.3%;
+  }
+  .Teeth_Smile3 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 52.2%;
+  }
+  .Teeth_Smile4 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 57%;
+  }
+}
+@media only screen and (max-device-width: 1240px) and (min-device-width: 1206px) {
+  .PC_img {
+    top: 19.3%;
+  }
+}
+@media only screen and (max-device-width: 1280px) and (min-device-width: 1241px) {
+  .PC_img {
+    top: 19.3%;
+  }
+}
+@media (max-width: 960px) {
+  .PC_img {
+    width: 81%;
+
+    top: 21.5%;
+    left: 9.5%;
+  }
+  .Left_Eye_Inactive {
+    width: 1.9%;
+
+    top: 40.8%;
+    left: 46.8%;
+  }
+  .Right_Eye_Inactive {
+    width: 1.9%;
+
+    top: 40.8%;
+    left: 51.85%;
+  }
+  .Ace_Teeth1 {
+    width: 4px;
+    height: 8.1px;
+
+    top: 47.9%;
+    left: 47.6%;
+  }
+  .Ace_Teeth2 {
+    width: 4px;
+    height: 8px;
+
+    top: 48.2%;
+    left: 48.2%;
+  }
+  .Ace_Teeth3 {
+    width: 4px;
+    height: 8px;
+
+    top: 48.2%;
+    left: 50.5%;
+  }
+  .Ace_Teeth4 {
+    width: 4px;
+    height: 8.1px;
+
+    top: 47.9%;
+    left: 51.1%;
+  }
+  .Ace_4Teeth {
+    width: 15px;
+    height: 9px;
+
+    top: 48.2%;
+    left: 49.35%;
+  }
+  .Teeth_Bg {
+    height: auto;
+    width: 24%;
+
+    top: 70%;
+    left: 49.5%;
+  }
+  .Teeth_Smile1 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 42.5%;
+  }
+  .Teeth_Smile2 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 47.3%;
+  }
+  .Teeth_Smile3 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 52.2%;
+  }
+  .Teeth_Smile4 {
+    height: 43px;
+    width: 43px;
+
+    top: 70%;
+    left: 57%;
+  }
+}
+
+@media (max-width: 768px) {
+  .Back_BTN {
+    height: 50px;
+    width: 50px;
+    top: 4%;
+    left: 2%;
+  }
+  .Play_Remote {
+    font-size: 20px;
+    top: 5.5%;
+    left: 10%;
+  }
+  .Help_Btn {
+    height: 50px;
+    width: 50px;
+    right: 10%;
+  }
+  .Bluetooth_Button {
+    width: 10%;
+  }
+  .Left_Eye_Backdround {
+    height: 150px;
+    width: 260px;
+
+    top: 64%;
+  }
+  .Buzzer_Bg {
+    height: 110px;
+    width: 240px;
+
+    top: 42%;
+  }
+  .Slider_Div1 {
+    height: 17%;
+
+    top: 54.5%;
+  }
+  .Slider_Div2 {
+    height: 17%;
+
+    top: 54.5%;
+  }
+  .Slider_Div3 {
+    height: 5%;
+
+    top: 39%;
+    left: 14%;
+  }
+
+  .Buzzer_txt {
+    font-size: 14px;
+
+    top: 42.5%;
+  }
+  .Right_Eye_Backdround {
+    height: 150px;
+    width: 260px;
+
+    top: 64%;
+    left: 80%;
+  }
+  .Left_Eye_txt {
+    font-size: 16px;
+    top: 63%;
+    left: 9.5%;
+  }
+  .Right_Eye_txt {
+    font-size: 16px;
+    top: 63%;
+    left: 71.5%;
+  }
+  .Talkback_IA {
+    height: 57px;
+    width: 57px;
+
+    top: 44%;
+    left: 72.5%;
+  }
+  .Disco_IA {
+    height: 57px;
+    width: 57px;
+
+    top: 44%;
+    left: 80.5%;
+  }
+  .Gesture_IA {
+    height: 57px;
+    width: 57px;
+
+    top: 44%;
+    left: 88.5%;
+  }
+  .Talkback_txt {
+    font-size: 13px;
+
+    top: 54%;
+    left: 73.5%;
+  }
+  .Disco_txt {
+    font-size: 13px;
+
+    top: 54%;
+    left: 83.7%;
+  }
+  .Gesture_txt {
+    font-size: 13px;
+
+    top: 54%;
+    left: 91%;
+  }
+
+  .PC_img {
+    width: 82%;
+
+    top: 31.4%;
+    left: 9%;
+  }
+
+  .Left_Eye_Inactive {
+    width: 2%;
+
+    top: 46.6%;
+    left: 46.6%;
+  }
+  .Right_Eye_Inactive {
+    width: 2%;
+
+    top: 46.6%;
+    left: 52%;
+  }
+  .Buzzer_Inactive {
+    height: auto;
+    width: 19%;
+
+    top: 39%;
+  }
+  .Ace_Teeth1 {
+    width: 3px;
+    height: 6.5px;
+
+    top: 52%;
+    left: 47.6%;
+  }
+  .Ace_Teeth2 {
+    width: 3.3px;
+    height: 6.5px;
+
+    top: 52.4%;
+    left: 48.2%;
+  }
+  .Ace_Teeth3 {
+    width: 3.3px;
+    height: 6.5px;
+
+    top: 52.4%;
+    left: 50.5%;
+  }
+  .Ace_Teeth4 {
+    width: 3.3px;
+    height: 6.5px;
+
+    top: 52%;
+    left: 51.1%;
+  }
+  .Ace_4Teeth {
+    width: 11px;
+    height: 8px;
+
+    top: 52.4%;
+    left: 49.4%;
+  }
+  .Teeth_Bg {
+    height: auto;
+    width: 24%;
+
+    top: 68%;
+  }
+  .Teeth_Smile1 {
+    height: 35px;
+    width: 35px;
+
+    top: 68.5%;
+    left: 42.4%;
+  }
+  .Teeth_Smile2 {
+    height: 35px;
+    width: 35px;
+
+    top: 68.5%;
+    left: 47.1%;
+  }
+  .Teeth_Smile3 {
+    height: 35px;
+    width: 35px;
+
+    top: 68.5%;
+    left: 52%;
+  }
+  .Teeth_Smile4 {
+    height: 35px;
+    width: 35px;
+
+    top: 68.5%;
+    left: 56.8%;
+  }
+}
+
+@media only screen and (max-device-width: 1336px) {
+  .PC_img {
+    height: auto;
+    width: 70.5%;
+    position: relative;
+
+    z-index: 0;
+    top: 19.1%;
+    left: 14.9%;
+  }
+  .Left_Eye_Inactive {
+    width: 1.7%;
+    top: 37.9%;
+    left: 47.3%;
+  }
+  .Right_Eye_Inactive {
+    width: 1.7%;
+    top: 37.9%;
+    left: 51.69%;
+  }
+  .Ace_Teeth1 {
+    width: 5.5px;
+    height: 9px;
+    top: 43.7%;
+    left: 47.9%;
+  }
+  .Ace_Teeth2 {
+    width: 5.5px;
+    height: 9px;
+
+    top: 44.1%;
+    left: 48.5%;
+  }
+  .Ace_Teeth3 {
+    width: 5.5px;
+    height: 9px;
+
+    top: 44.1%;
+    left: 50.5%;
+  }
+  .Ace_Teeth4 {
+    width: 5.5px;
+    height: 9px;
+
+    top: 43.7%;
+    left: 51%;
+  }
+  .Ace_4Teeth {
+    width: 19px;
+    height: 11px;
+
+    top: 44.3%;
+    left: 49.5%;
+  }
+}
+
+@media only screen and (max-device-width: 1990px) {
+  .PC_img {
+    height: auto;
+    width: 70.5%;
+    position: relative;
+
+    z-index: 0;
+    top: 19.9%;
+    left: 14.9%;
+  }
+  .Left_Eye_Inactive {
+    width: 1.7%;
+
+    top: 41.2%;
+    left: 47.3%;
+  }
+  .Right_Eye_Inactive {
+    width: 1.7%;
+
+    top: 41.2%;
+    left: 51.69%;
+  }
+  .Ace_Teeth1 {
+    width: 5.5px;
+    height: 9px;
+
+    top: 48.8%;
+    left: 47.9%;
+  }
+  .Ace_Teeth2 {
+    width: 5.5px;
+    height: 9px;
+
+    top: 49%;
+    left: 48.5%;
+  }
+  .Ace_Teeth3 {
+    width: 5.5px;
+    height: 9px;
+
+    top: 49%;
+    left: 50.5%;
+  }
+  .Ace_Teeth4 {
+    width: 5.5px;
+    height: 9px;
+
+    top: 48.8%;
+    left: 51%;
+  }
+  .Ace_4Teeth {
+    width: 30px;
+    height: 17px;
+
+    top: 49.2%;
+    left: 49.5%;
+  }
+} */

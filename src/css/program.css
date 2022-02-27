@@ -1,0 +1,32 @@
+.program_hm_main_img_div{
+    height: 50%;
+    width: 100%;
+    /* background-color: lightgrey; */
+    position: absolute;
+    margin-top: 12%;
+ 
+ }
+ .program_hm_main_image_button{
+    border:none;
+    background-color: transparent;
+    position: relative;
+    margin-left: 0px;
+    height: 100%;
+    width: 20%;
+    outline:"none"
+}
+.program_main_img{
+    height: 94%;
+    width: 82%
+}
+.program_disc{
+    position: absolute;
+    top: 68%;
+    left:20%;
+    color: grey
+}
+
+@media only screen and (max-width: 1024px) {
+    .program_main_img{height: 100%;width: 100%}
+    .program_disc{left: 12%}
+}

@@ -1,0 +1,117 @@
+.draw {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+#mainVariable {
+  /* width: 1000px; */
+  height: 500px;
+  /* border: 1px solid #c3c3c3; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  /* padding-left: 10vw; */
+  /* overflow-x: scroll; */
+}
+
+#mainVariable tr {
+  display: inline-table;
+}
+.back_btn_logic {
+  height: 6vh;
+  width: 8vw;
+  border-radius: 50px;
+  background-color: #311b92;
+  top: 80vh;
+  left: 2vw;
+  position: absolute;
+  color: white;
+  text-align: center;
+  line-height: 35px;
+  z-index: 1000;
+  font-size: 1.5vw;
+  word-wrap: break-word;
+}
+.CSD {
+  display: inline-block;
+  /* height: 90%;
+    width: 25%;
+    margin-left: 72%;
+    z-index : 1000;
+    float: left;
+    color: white;
+    /* background-color: lightgray; */
+  height: 1vh;
+  width: 20%;
+  /* margin-left: 72%; */
+  z-index: 1000;
+  /* float: left; */
+  color: white;
+  /* background-color: lightgray; */
+  position: absolute;
+  right: 0vw;
+  top: 0vh;
+}
+
+#main {
+  width: 100vw;
+  height: 500px;
+  /* border: 1px solid #c3c3c3; */
+  display: flex;
+  flex-wrap: wrap;
+  /* padding-left: 10vw; */
+  flex-direction: column;
+  /* overflow-x: scroll; */
+}
+
+#main tr {
+  display: inline-table;
+  width: "25%";
+}
+/* width: "25%",height:"60px",float:"left",position:"relative",backgroundColor:"lightgrey",marginLeft:"5%" */
+
+.tabDiv {
+  display: inline-flex;
+}
+.tabButton {
+  height: 6vh;
+  width: 8vw;
+  /* border-radius: 50px; */
+  background-color: #311b92;
+  /* top: 90vh;
+    right: 5vw;
+    position: absolute; */
+  color: white;
+  text-align: center;
+  line-height: 35px;
+  z-index: 10;
+  font-size: 1.5vw;
+  word-wrap: break-word;
+  /* padding-left:"10px"; */
+  margin: 10px;
+
+  text-decoration: none;
+}
+.tabActive {
+  height: 6vh;
+  width: 8vw;
+  /* border-radius: 50px; */
+  background-color: #311b92;
+  /* top: 90vh;
+  right: 5vw;
+  position: absolute; */
+  color: white;
+  text-align: center;
+  line-height: 35px;
+  z-index: 10;
+  font-size: 1.5vw;
+  word-wrap: break-word;
+  /* padding-left:"10px"; */
+  margin: 10px;
+  border: 2px solid skyblue;
+
+  text-decoration: none;
+}
+.waitDiv .rc-slider-rail {
+  width: 103%;
+}

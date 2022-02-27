@@ -1,0 +1,18 @@
+.RadioContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.radioBtnBox {
+  height: 28px;
+  width: 28px;
+}
+
+.radioBtnBoxTxt {
+  color: #000;
+  margin-left: 10px;
+  font-size: 16px;
+}

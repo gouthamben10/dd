@@ -1,0 +1,48 @@
+.container {
+  position: relative;
+}
+.container img {
+  display: block;
+}
+.container .fa-download {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* .react-flow__edge-path {
+    stroke:green;
+    stroke-width: 20px;
+    width:20px;
+    
+    
+} */
+/*
+.react-flow__pane{
+    stroke: #b1b1b7;
+    stroke-width: 16px;
+    width:20px;
+    height:20px;
+    color:black;
+
+}
+.react-flow__edge {
+    stroke: #b1b1b7;
+    stroke-width: 16;
+    width:20;
+   
+    
+} */
+/* .react-flow__node-input{
+    background-image: 'start.png';
+} */
+
+/* .react-flow__node.react-flow__node-default.selectable{
+    
+    background-image: url("learn_flow_if.png");
+    height: 20px;
+    width:100px;
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    
+} */

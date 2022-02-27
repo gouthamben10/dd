@@ -1,0 +1,455 @@
+/* .carousel row {
+  margin: 0;
+}
+.carousel-cell {
+  width: 66%;
+  margin-right: 3rem;
+}
+
+.cell__wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cell__inner {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.cell__title {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 0;
+  margin: 0;
+  transform: translateY(-50%) translateX(-20%);
+}
+
+.text-split {
+  overflow: hidden;
+  display: inline-block;
+}
+.text-split whitespace {
+  display: initial;
+}
+
+/* @for $i from 1 through 100 {
+      &:nth-child(#{$i}) .text-split__inner {
+        transition-delay: 0.02s * $i;
+      }
+    }
+  } */
+
+/* .text-split__inner {
+  transform: translateY(100%);
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.is-selected {
+  transform: translateY(0);
+}
+
+.whitespace {
+  display: initial;
+}
+
+.cell__thumb {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  /* background-color: #00011D;
+      color: #FFF; */
+/* } */
+/* .container { */
+/* width: 100%; */
+/* } */
+
+.wdt {
+  position: relative;
+  text-align: center;
+  /* color: black; */
+  outline: none;
+
+  width: 95% !important;
+}
+.Hdg {
+  position: absolute;
+  top: 22%;
+  right: 15%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #ffffff;
+  padding: 14px, 28px;
+  border-radius: 12px;
+  height: 6%;
+  width: 30%;
+  /* border: 1px solid #9b9797; */
+  /* max-width: 600px; */
+  /* min-width: 300px; */
+}
+
+.Hdg_P {
+  text-align: left;
+  align-items: flex-start;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #707070;
+  font-family: "Halcyon_Regular" !important;
+  position: absolute;
+  top: 25%;
+  left: 4%;
+  height: 50%;
+  width: 95%;
+}
+
+.Mdl {
+  position: absolute;
+  top: 38.5%;
+  left: 61.5%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #ffffff;
+  padding: 14px, 28px;
+  border-radius: 12px;
+  height: 9%;
+  width: 30%;
+  /* border: 1px solid #9b9797; */
+  /* max-width: 600px; */
+  /* min-width: 300px; */
+}
+.Mdl_P {
+  text-align: left;
+  align-items: flex-start;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #707070;
+  font-family: "Halcyon_Regular" !important;
+  position: absolute;
+  top: 15%;
+  left: 6%;
+  height: 50%;
+  width: 107%;
+}
+.Ftr {
+  position: absolute;
+  top: 56%;
+  right: 7%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #ffffff;
+  padding: 14px, 28px;
+  border-radius: 12px;
+  height: 19%;
+  width: 34%;
+  /* border: 1px solid #9b9797; */
+  /* max-width: 600px; */
+  /* min-width: 300px; */
+}
+.Ftr_P {
+  text-align: left;
+  align-items: flex-start;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #707070;
+  font-family: "Halcyon_Regular" !important;
+  position: absolute;
+  top: 9%;
+  left: 3%;
+  height: 5%;
+  width: 92%;
+}
+.con {
+  position: absolute;
+  top: 49%;
+  left: 39.5%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #ffffff;
+  padding: 14px, 28px;
+  border-radius: 12px;
+  height: 33%;
+  width: 26%;
+  /* border: 1px solid #9b9797; */
+  /* max-width: 600px; */
+  /* min-width: 300px; */
+}
+.con_P {
+  text-align: left;
+  align-items: flex-start;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #707070;
+  font-family: "Halcyon_Regular" !important;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  height: 51%;
+  width: 91%;
+}
+.Mus {
+  position: absolute;
+  top: 49%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #ffffff;
+  padding: 14px, 28px;
+  border-radius: 12px;
+  height: 33%;
+  width: 35%;
+  /* border: 1px solid #9b9797; */
+  /* max-width: 600px; */
+  /* min-width: 300px; */
+}
+.Mus_P {
+  text-align: left;
+  align-items: flex-start;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #707070;
+  font-family: "Halcyon_Regular" !important;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  height: 5%;
+  width: 91%;
+}
+.Cam {
+  position: absolute;
+  top: 49%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #ffffff;
+  padding: 14px, 28px;
+  border-radius: 12px;
+  height: 25%;
+  width: 25%;
+  /* border: 1px solid #9b9797; */
+  /* max-width: 600px; */
+  /* min-width: 300px; */
+}
+.Cam_P {
+  text-align: left;
+  align-items: flex-start;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #707070;
+  font-family: "Halcyon_Regular" !important;
+  position: absolute;
+  top: 6%;
+  left: 5%;
+  height: 5%;
+  width: 91%;
+}
+.Cam1 {
+  position: absolute;
+  top: 49%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #ffffff;
+  padding: 14px, 28px;
+  border-radius: 12px;
+  height: 20%;
+  width: 25%;
+  /* border: 1px solid #9b9797; */
+  /* max-width: 600px; */
+  /* min-width: 300px; */
+}
+.Cam1_P {
+  text-align: left;
+  align-items: flex-start;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #707070;
+  font-family: "Halcyon_Regular" !important;
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  height: 50%;
+  width: 100%;
+}
+.Cam2 {
+  position: absolute;
+  top: 49%;
+  left: 39%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #ffffff;
+  padding: 14px, 28px;
+  border-radius: 12px;
+  height: 30%;
+  width: 27%;
+  /* border: 1px solid #9b9797; */
+  /* max-width: 600px; */
+  /* min-width: 300px; */
+}
+.Cam2_P {
+  text-align: left;
+  align-items: flex-start;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #707070;
+  font-family: "Halcyon_Regular" !important;
+  position: absolute;
+  top: 6%;
+  left: 5%;
+  height: 5%;
+  width: 91%;
+}
+
+.img {
+  height: 750px !important;
+  width: 100%;
+}
+.slick-dots li button {
+  font-size: 16px;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border-radius: 10;
+  outline: none;
+  background: transparent;
+}
+.slick-dots li button:before {
+  font-family: "slick";
+  font-size: 16px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: "•";
+  text-align: center;
+  opacity: 0.25;
+  /* color: black; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots {
+  position: absolute;
+  bottom: 80px;
+  left: -3%;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.slick-slider {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin-top: -1%;
+  /* margin-left: 7%; */
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  touch-action: pan-y;
+  background-color: #fff;
+  -webkit-tap-highlight-color: transparent;
+}
+.slick-slide img {
+  display: grayscale;
+}
+
+/* 
+
+
+
+<div className="Hdg">
+<p
+  style={{
+    textAlign: "left",
+    alignItems: "flex-start",
+    fontSize: "18px",
+    letterSpacing: "0px",
+    color: "#707070",
+    fontFamily: "Halcyon_Regular",
+    position: "absolute",
+    top: "15%",
+    left: "10%",
+    height: "5%",
+    width: "80%",
+    // zIndex: "10",
+  }}
+>
+  {" "}
+  Add Button to add or scan for new devices you like to program{" "}
+</p>
+</div>
+<div className="Mdl">
+<p
+  style={{
+    textAlign: "left",
+    alignItems: "flex-start",
+    fontSize: "18px",
+    letterSpacing: "0px",
+    color: "#707070",
+    fontFamily: "Halcyon_Regular",
+    position: "absolute",
+    top: "15%",
+    left: "10%",
+    height: "5%",
+    width: "80%",
+    // zIndex: "10",
+  }}
+>
+  {" "}
+  Add Button to add or scan for new devices you like to program{" "}
+</p>
+</div>
+<div className={"Ftr"}>
+<p
+  style={{
+    textAlign: "left",
+    alignItems: "flex-start",
+    fontSize: "18px",
+    letterSpacing: "0px",
+    color: "#707070",
+    fontFamily: "Halcyon_Regular",
+    position: "absolute",
+    top: "15%",
+    left: "10%",
+    height: "5%",
+    width: "80%",
+    // zIndex: "10",
+  }}
+>
+  {" "}
+  Add Button to add or scan for new devices you like to program{" "}
+</p>
+</div> */

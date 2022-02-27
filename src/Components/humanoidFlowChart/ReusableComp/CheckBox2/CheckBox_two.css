@@ -1,0 +1,29 @@
+.checkbox_container input {
+  display: none;
+}
+
+.checkbox_container {
+  position: relative;
+  cursor: pointer;
+}
+
+.checkbox_container .check_Mark {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-color: #bfbdbd;
+  position: absolute;
+  left: -5px;
+  top: 6px;
+  border-radius: 50%;
+}
+
+.checkbox_container input:checked + .check_Mark {
+  background-color: #4caf50;
+}
+
+@media (max-width: 964px) {
+  .checkbox_container .check_Mark {
+    top: -2px;
+  }
+}

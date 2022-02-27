@@ -1,0 +1,15 @@
+.outertabDiv-end{
+    position: relative;
+    color: #000;
+    height: 550px;
+    width: 900px;
+    top: 42.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+  
+    background-position: -24px -30px;
+    background-size: 950px 590px;
+    background-repeat: no-repeat;
+    background-image: url('../../../../../../Assets/img/propertypanel@2x.png');
+}
